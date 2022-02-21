@@ -1,0 +1,149 @@
+--- 
+matched_count: 29
+results: 
+  - 
+    AWS::S3::Request::GetFileInfo: 
+      description: AWS::S3::Request::GetFileInfo - latest:undef
+      distfile: L/LE/LEEJO/AWS-S3-0.18.tar.gz
+      version: undef
+  - 
+    AsposeCellsCloud::Object::FileInfo: 
+      description: AsposeCellsCloud::Object::FileInfo - latest:undef
+      distfile: A/AS/ASPOSE/AsposeCellsCloud-CellsApi-21.12.tar.gz
+      version: undef
+  - 
+    Devel::NYTProf::FileInfo: 
+      description: Devel::NYTProf::FileInfo - latest:undef
+      distfile: J/JK/JKEENAN/Devel-NYTProf-6.11.tar.gz
+      version: undef
+  - 
+    Finnigan::RawFileInfo: 
+      description: Finnigan::RawFileInfo - latest:0.0206
+      distfile: S/SE/SELKOVJR/Finnigan-0.0206d.tar.gz
+      version: '0.0206'
+  - 
+    Finnigan::RawFileInfoPreamble: 
+      description: Finnigan::RawFileInfoPreamble - latest:0.0206
+      distfile: S/SE/SELKOVJR/Finnigan-0.0206d.tar.gz
+      version: '0.0206'
+  - 
+    Net::Hotline::FileInfoItem: 
+      description: Net::Hotline::FileInfoItem - latest:0.80
+      distfile: J/JS/JSIRACUSA/Net-Hotline-0.83.tar.gz
+      version: '0.80'
+  - 
+    Paws::AlexaForBusiness::DeviceNetworkProfileInfo: 
+      description: Paws::AlexaForBusiness::DeviceNetworkProfileInfo - latest:0.44
+      distfile: J/JL/JLMARTIN/Paws-0.44.tar.gz
+      version: '0.44'
+  - 
+    Paws::IoTWireless::LoRaWANGetServiceProfileInfo: 
+      description: Paws::IoTWireless::LoRaWANGetServiceProfileInfo - latest:0.44
+      distfile: J/JL/JLMARTIN/Paws-0.44.tar.gz
+      version: '0.44'
+  - 
+    VMOMI::ArrayOfFileInfo: 
+      description: VMOMI::ArrayOfFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::ArrayOfGuestFileInfo: 
+      description: VMOMI::ArrayOfGuestFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::ArrayOfUpdateVirtualMachineFilesResultFailedVmFileInfo: 
+      description: VMOMI::ArrayOfUpdateVirtualMachineFilesResultFailedVmFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::ArrayOfVVolVmConfigFileUpdateResultFailedVmConfigFileInfo: 
+      description: VMOMI::ArrayOfVVolVmConfigFileUpdateResultFailedVmConfigFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::ArrayOfVirtualMachineFileLayoutExFileInfo: 
+      description: VMOMI::ArrayOfVirtualMachineFileLayoutExFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::FileInfo: 
+      description: VMOMI::FileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::FloppyImageFileInfo: 
+      description: VMOMI::FloppyImageFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::FolderFileInfo: 
+      description: VMOMI::FolderFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::GuestFileInfo: 
+      description: VMOMI::GuestFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::GuestListFileInfo: 
+      description: VMOMI::GuestListFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::IsoImageFileInfo: 
+      description: VMOMI::IsoImageFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::TemplateConfigFileInfo: 
+      description: VMOMI::TemplateConfigFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::UpdateVirtualMachineFilesResultFailedVmFileInfo: 
+      description: VMOMI::UpdateVirtualMachineFilesResultFailedVmFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::VVolVmConfigFileUpdateResultFailedVmConfigFileInfo: 
+      description: VMOMI::VVolVmConfigFileUpdateResultFailedVmConfigFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::VirtualMachineFileInfo: 
+      description: VMOMI::VirtualMachineFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::VirtualMachineFileLayoutExFileInfo: 
+      description: VMOMI::VirtualMachineFileLayoutExFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::VmConfigFileInfo: 
+      description: VMOMI::VmConfigFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::VmDiskFileInfo: 
+      description: VMOMI::VmDiskFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::VmLogFileInfo: 
+      description: VMOMI::VmLogFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::VmNvramFileInfo: 
+      description: VMOMI::VmNvramFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+  - 
+    VMOMI::VmSnapshotFileInfo: 
+      description: VMOMI::VmSnapshotFileInfo - latest:0.02
+      distfile: S/ST/STUMPR/VMOMI-0.02.tar.gz
+      version: '0.02'
+total_rows: 259487

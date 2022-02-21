@@ -4,8 +4,8 @@
   'stay_logged_in' => 'No cerrar sesión',
   'forgot_password' => '¿Olvidaste la contraseña?',
   'login' => 'Iniciar sesión',
-  'copy_right_light' => '© 2021. <span class="text-white">Amplify Email Marketing Application</span> by <a href="http://acellemail.com" class="text-white" target="_blank">acellemail.com</a>',
-  'copy_right' => '© 2021. Amplify Email Marketing Application by <a title="Go to Amplify home page." class="xtooltip" href="http://acellemail.com" class="" target="_blank">acellemail.com</a>',
+  'copy_right_light' => '© 2021. <span class="text-white">Acelle Email Marketing Application</span> by <a href="http://acellemail.com" class="text-white" target="_blank">acellemail.com</a>',
+  'copy_right' => '© 2021. Acelle Email Marketing Application by <a title="Go to AcelleMail home page." class="xtooltip" href="http://acellemail.com" class="" target="_blank">acellemail.com</a>',
   'send_password_reset_link' => 'Enviar enlace de reinicio de contraseña',
   'password_reset' => 'Reiniciar contraseña',
   'password_reset.help' => 'Se envio un correo a tu casilla con las instrucciones de como reiniciar tu contraseña.',
@@ -1563,7 +1563,7 @@
   'license.license_types' => 'Tipos de licencia',
   'license.no_license' => 'Aún no ingresa una licencia válida. Compre una licencia e ingrésela en el formulario a continuación para continuar usando el producto',
   'license_guide' => '
-        <p>Cuando compra Amplify Mail desde el sitio web de Envato, en realidad está comprando una licencia para usar el producto. <br> Se emiten 2 tipos de licencia</p>
+        <p>Cuando compra Acelle Mail desde el sitio web de Envato, en realidad está comprando una licencia para usar el producto. <br> Se emiten 2 tipos de licencia</p>
         <h4>Licencia Regular</h4>
         <p>
             Todas las funciones están disponibles para un solo producto final por el que NO se cobra a los usuarios finales
@@ -1575,7 +1575,7 @@
     ',
   'license_label_extended' => 'Extended',
   'license_label_normal' => 'Normal',
-  'your_current_license' => '¡Gracias por comprar Amplify Mail! A continuación se muestra su clave de licencia, también conocida como Código de compra. Su tipo de licencia es',
+  'your_current_license' => '¡Gracias por comprar Acelle Mail! A continuación se muestra su clave de licencia, también conocida como Código de compra. Su tipo de licencia es',
   'verify_license' => 'Verificar',
   'license_tab' => 'Licencia',
   'submit' => 'Enviar',
@@ -1615,11 +1615,11 @@
   'file' => 'FILE',
   'file.uploaded' => 'Archivo subido OK.',
   'current_plan' => 'Plan actual',
-  'current_plan_intro' => '<p>Gracias por hacer tu email marketing con Amplify Mail.
+  'current_plan_intro' => '<p>Gracias por hacer tu email marketing con Acelle Mail.
       Actualmente estas suscripto al plan <strong>:plan</strong.
       Tu suscripción expira en <strong>:remain</strong>, el <strong>:end_at</strong></p>
       <p>Encuentre los detalles de su plan actual a continuación</p>',
-  'current_plan_intro_unlimited' => '<p>Gracias por hacer tu email marketing con Amplify Mail.
+  'current_plan_intro_unlimited' => '<p>Gracias por hacer tu email marketing con Acelle Mail.
       Actualmente esta suscripto al plan <strong>:plan</strong></p>
       <p>Encuentre los detalles de su plan actual a continuación</p>',
   'plan_name' => 'Nombre Plan',
@@ -1629,7 +1629,7 @@
       Finalice el pago o espere la confirmación del pago para activar su suscripción.',
   'next_plan_notactive_intro' => 'Tienes una suscripción pendiente para el plan <a><strong>:plan</strong></a>.
       Finalice el pago o espere la confirmación del pago para activar su suscripción.',
-  'subscribe_to_a_plan_intro' => 'Gracias por registrarte con Amplify Mail. Actualmente no estás suscrito a ningún plan. A continuación se encuentran los planes disponibles para que usted elija:',
+  'subscribe_to_a_plan_intro' => 'Gracias por registrarte con Acelle Mail. Actualmente no estás suscrito a ningún plan. A continuación se encuentran los planes disponibles para que usted elija:',
   'subscribe_plan' => 'Suscribe',
   'next_plan' => 'Siguiente plan',
   'available_plans' => 'Planes disponibles',
@@ -1642,10 +1642,10 @@
   'registration_recaptcha' => 'Registracion captcha',
   'setting.registration_recaptcha.help' => 'Habilite captcha para el registro para bloquear el acceso de spammers y bots a la aplicación web.',
   'frontend_dashboard_hello' => 'Hola, :name!',
-  'frontend_dashboard_welcome' => 'Bienvenido de nuevo al panel de su cuenta. Consulte las estadísticas de rendimiento\' de sus campañas de correo electrónico y consejos personalizados de Amplify Mail.',
+  'frontend_dashboard_welcome' => 'Bienvenido de nuevo al panel de su cuenta. Consulte las estadísticas de rendimiento\' de sus campañas de correo electrónico y consejos personalizados de Acelle Mail.',
   'empty_record_message' => 'Aún no hay registros!',
   'backend_dashboard_hello' => 'Hola, :name!',
-  'backend_dashboard_welcome' => 'Bienvenido de nuevo al panel de administración. Consulte estas estadísticas y notificaciones del sistema de Amplify Mail.',
+  'backend_dashboard_welcome' => 'Bienvenido de nuevo al panel de administración. Consulte estas estadísticas y notificaciones del sistema de Acelle Mail.',
   'resources_statistics' => 'Estadisticas de recursos',
   'sending_limit' => 'Limite de envio',
   'resources_statistics_intro' => 'Una descripción general del uso de recursos del sistema',
@@ -1767,15 +1767,15 @@
   'upgrade.button.cancel' => 'Cancelar',
   'upgrade.button.upgrade_now' => 'Si, actualizar ahora',
   'upgrade.button.' => '',
-  'upgrade.upgrade_confirm' => 'Amplify Mail va a actualizar la aplicación. Haga clic en el botón confirmar para continuar.',
+  'upgrade.upgrade_confirm' => 'Acelle Mail va a actualizar la aplicación. Haga clic en el botón confirmar para continuar.',
   'upgrade.upgrade_cancel' => '¿Está seguro de que desea cancelar la actualización?',
-  'upgrade.wording.upgrade' => 'Estás corriendo en Amplify Mail :current, una nueva version esta disponible: :new<br>¿Desea continuar con la actualización?',
+  'upgrade.wording.upgrade' => 'Estás corriendo en Acelle Mail :current, una nueva version esta disponible: :new<br>¿Desea continuar con la actualización?',
   'upgrade.title.current' => 'Su actual version',
   'upgrade.title.upgrade_confirm' => 'Confirmación de actualización',
-  'upgrade.wording.upload' => 'Actualmente se está ejecutando en Amplify Mail :current. Para actualizar su aplicación, descargue la última compilación de <code> <a target="_blank" href="https://codecanyon.net/item/acelle-email-marketing-web-application/17796082"> codecanyon.net </a> </code>, puede encontrar el paquete de actualización ubicado en <code> [fuente acellemail] /upgrade/patch-3.xxbin </code>, cárguelo usando el formulario a continuación',
-  'upgrade.alert.upgrade_success' => '¡Felicidades! Has actualizado con éxito a la nueva versión de Amplify Mail.',
+  'upgrade.wording.upload' => 'Actualmente se está ejecutando en Acelle Mail :current. Para actualizar su aplicación, descargue la última compilación de <code> <a target="_blank" href="https://codecanyon.net/item/acelle-email-marketing-web-application/17796082"> codecanyon.net </a> </code>, puede encontrar el paquete de actualización ubicado en <code> [fuente acellemail] /upgrade/patch-3.xxbin </code>, cárguelo usando el formulario a continuación',
+  'upgrade.alert.upgrade_success' => '¡Felicidades! Has actualizado con éxito a la nueva versión de Acelle Mail.',
   'upgrade.alert.cancel_success' => 'La actualización ha sido cancelada',
-  'upgrade.alert.upload_success' => 'Se cargó con éxito una nueva versión de Amplify Mail. Ahora puede revisar los cambios y continuar con la actualización.',
+  'upgrade.alert.upload_success' => 'Se cargó con éxito una nueva versión de Acelle Mail. Ahora puede revisar los cambios y continuar con la actualización.',
   'upgrade_manager' => 'Gestor de Actualizacion',
   'campaign_intro_regular' => 'Campaña con contenido de correo electrónico HTML, así como imágenes, enlaces. Este es el tipo más común.',
   'campaign_intro_plain-text' => 'Enviar un correo electrónico de texto sin seguimiento de enlace, imágenes o HTML.',
@@ -1841,7 +1841,7 @@
   'template.copied' => 'La plantilla se copió correctamente',
   'notification.note' => 'Nota: ',
   'notification.sending_servers' => 'los servidores de envío agregados por el administrador serán utilizados por usuarios que no tienen permitido agregar los suyos. Puede seleccionar los servidores de envío para asignar a un plan particular',
-  'languages.wording' => 'La función de soporte multilingüe de Amplify Mail le permite usar diferentes versiones traducidas de la aplicación web. Puede cambiar a un idioma preferido o incluso agregar el suyo. Puede personalizar el texto de la interfaz de usuario (UI) traduciéndolo como desee.',
+  'languages.wording' => 'La función de soporte multilingüe de Acelle Mail le permite usar diferentes versiones traducidas de la aplicación web. Puede cambiar a un idioma preferido o incluso agregar el suyo. Puede personalizar el texto de la interfaz de usuario (UI) traduciéndolo como desee.',
   'plan.tax_billing_required.help' => 'Solicite información de facturación de impuestos al suscribirse al plan',
   'the_email_no_longer_exists' => 'El correo electrónico ya no existe.',
   'remove_current_photo' => 'Eliminar la foto actual',
@@ -1874,7 +1874,7 @@
   'plan_option.own_sending_server' => 'Use sus propios servidores de envío',
   'plan_option.own_sending_server.intro' => 'El cliente puede agregar sus propios servidores de envío',
   'plan_option.sub_account' => 'Use una subcuenta de los servidores de envío del sistema',
-  'plan_option.sub_account.intro' => 'SendGrid y ElasticEmail admiten la creación de subcuentas que pertenecen a una cuenta principal. Se proporcionan subcuentas para ayudarlo a segmentar su envío de correo electrónico y actividad de API. Amplify Mail creará automáticamente una subcuenta separada para cualquier usuario que se suscriba al plan. Seleccione una cuenta maestra SendGrid / ElasticEmail a continuación para crear subcuentas desde',
+  'plan_option.sub_account.intro' => 'SendGrid y ElasticEmail admiten la creación de subcuentas que pertenecen a una cuenta principal. Se proporcionan subcuentas para ayudarlo a segmentar su envío de correo electrónico y actividad de API. Acelle Mail creará automáticamente una subcuenta separada para cualquier usuario que se suscriba al plan. Seleccione una cuenta maestra SendGrid / ElasticEmail a continuación para crear subcuentas desde',
   'select_sending_servers' => 'Seleccionar servidores de envío',
   'select_sending_server_with_subaccount' => 'Seleccione el servidor de envío con subcuenta',
   'plan_option.there_no_subaccount_sending_server' => '<span class="text-semibold">ERROR:</span> No hay servidores de envío para la creación de subcuentas.',
@@ -1974,10 +1974,10 @@
   'admin.notification.cronjob_not_active' => 'La aplicación CronJob no se ha ejecutado durante el último :cronjob_min_interval. ultima ejecucion a las :cronjob_last_executed',
   'admin.notification.cronjob_title' => 'CronJob',
   'admin.notification.system_url_title' => 'Aplicacion URL',
-  'admin.notification.system_url_not_match' => 'La URL actual de la aplicación (:current) no coincide con la almacenada en el caché de Amplify Mail (:cached). Vaya a Administrador> Configuración> Todas las configuraciones> URL del sistema para verificar y actualizar su caché de configuración',
-  'admin.settings.system_urls.not_match' => 'CUIDADO: la actual URL de la aplicacion <code>:current</code> no coincide con el almacenado en el caché de Amplify Mail <code>:cached</code>. Haga clic en el botón de abajo para actualizar el caché de Amplify Mail',
+  'admin.notification.system_url_not_match' => 'La URL actual de la aplicación (:current) no coincide con la almacenada en el caché de Acelle Mail (:cached). Vaya a Administrador> Configuración> Todas las configuraciones> URL del sistema para verificar y actualizar su caché de configuración',
+  'admin.settings.system_urls.not_match' => 'CUIDADO: la actual URL de la aplicacion <code>:current</code> no coincide con el almacenado en el caché de Acelle Mail <code>:cached</code>. Haga clic en el botón de abajo para actualizar el caché de Acelle Mail',
   'admin.settings.system_urls.title' => 'Apliacion URL',
-  'admin.settings.system_urls.current_urls_wording' => 'A continuación se muestran las URL de las aplicaciones actuales almacenadas en el caché de Amplify Mail',
+  'admin.settings.system_urls.current_urls_wording' => 'A continuación se muestran las URL de las aplicaciones actuales almacenadas en el caché de Acelle Mail',
   'subscriber.blacklisted' => 'La dirección de correo electrónico está en la lista negra.',
   'campaign.setup.from_email_not_allowed' => 'El email remitente (from) no coincide con ningún dominio de envío verificado',
   'advanced_settings' => 'Ajustes avanzados',
@@ -2021,7 +2021,7 @@
   'sender.dropbox.error' => 'La dirección de correo electrónico que ingresó aún no está verificada.
       Click <a href=":sender_link" target="blank">aqui</a> para verificar. De todos modos, puede continuar con un remitente no verificado si está seguro de ello',
   'sender.view' => 'Ver',
-  'sender.wording' => 'Amplify Mail requiere que verifique sus identidades (los dominios o las direcciones de correo electrónico desde donde envía el correo electrónico) para confirmar que es el propietario y evitar el uso no autorizado.',
+  'sender.wording' => 'Acelle Mail requiere que verifique sus identidades (los dominios o las direcciones de correo electrónico desde donde envía el correo electrónico) para confirmar que es el propietario y evitar el uso no autorizado.',
   'senders.empty_verified_domain_sender.warning' => 'No tienes un remitente verificado.
       Agregar y verificar  <a href=":domain_link" target="blank">[domain]</a> o
       <a href=":sender_link" target="blank">[email address]</a> enviar un correo electrónico en nombre de.',
@@ -2175,8 +2175,8 @@
   'sending_serbers.php-mail.allow_verify.intro' => 'También puede permitir que sus usuarios verifiquen una identidad por su cuenta.
       Es decir, el usuario puede agregar sus propias direcciones de correo electrónico o dominios y verificar en la plataforma.
       Una vez verificado, el usuario puede usar su propia dirección de correo electrónico REMITENTE al enviar',
-  'allow_verify_domain_against_Amplify' => 'Permitir verificar dominios propios del usuario(s) dentro de la plataforma',
-  'allow_verify_email_against_Amplify' => 'Permitir verificar las propias direcciones de correo electrónico del usuario(s) en la plataforma',
+  'allow_verify_domain_against_acelle' => 'Permitir verificar dominios propios del usuario(s) dentro de la plataforma',
+  'allow_verify_email_against_acelle' => 'Permitir verificar las propias direcciones de correo electrónico del usuario(s) en la plataforma',
   'allow_unverified_from_email' => 'Permitir direcciones de correo electrónico remitente no verificadas',
   'plans.send_via.wording' => 'Usar :server para enviar email',
   'plans.send_via.empty' => 'Ningun servidor seleccionado',
@@ -2952,7 +2952,7 @@
   'plan.sending_server_empty.setting' => 'No se ha seleccionado ningún servidor de envío',
   'template.pro_builder' => 'PRO builder',
   'template.classic_builder' => 'Classic builder',
-  'editor.insert_tag' => 'Insert Amplify Tags',
+  'editor.insert_tag' => 'Insert Acelle Tags',
   'include_javascript' => 'Include javascript',
   'sender.status.failed.title' => 'Verification failure',
   'sender.status.failed.description' => 'It appears the verification link is already expired or the sender had been removed from our application',
@@ -2988,7 +2988,7 @@
     <head>
     </head>
     <body>
-    <br /><span style="font-size: 24pt;">Amplify Mail Verification Center</span><br /><br /><span style="font-size: 14pt;">Dear Mr. or Mrs. {USER_LAST_NAME}</span><br /><br /><span style="font-size: 14pt;">Thank you for registering your email</span><br /><br /><span style="font-size: 14pt;">Please click the link below to verify your identity</span><br /><br /><em>Verification link will automatically be inserted to the end of your email content</em><br /><em>You can safely delete this notification line</em>
+    <br /><span style="font-size: 24pt;">Acelle Mail Verification Center</span><br /><br /><span style="font-size: 14pt;">Dear Mr. or Mrs. {USER_LAST_NAME}</span><br /><br /><span style="font-size: 14pt;">Thank you for registering your email</span><br /><br /><span style="font-size: 14pt;">Please click the link below to verify your identity</span><br /><br /><em>Verification link will automatically be inserted to the end of your email content</em><br /><em>You can safely delete this notification line</em>
     </body>
     </html>',
   'sending_servier.custom_verification_email.subject' => 'Subject',
@@ -3178,7 +3178,7 @@
   'plugin.updated' => 'Plugin was successfully updated',
   'plugin.deleted' => 'Plugin was successfully deleted',
   'plugin_empty_line_1' => 'You have no plugin',
-  'plugin.wording' => 'Empower your application with tons of awesome plugins developed by Amplify Mail Team.
+  'plugin.wording' => 'Empower your application with tons of awesome plugins developed by Acelle Mail Team.
       Integration made easier than ever!',
   'plugins.deleted' => 'One or more plugins were successfully deleted',
   'plugins.disabled' => 'One or more plugins were successfully disabled',
@@ -3229,7 +3229,7 @@
   'automation.trigger.woo-abandoned-cart.intro' => 'Send your buyer a reminder if they left
       something in cart.<br/>Enter your WordPress site\'s endpoint to connect. If you are not sure
       what your WordPress endpoint is, please install
-      <a target="_blank" href="https://1drv.ms/u/s!ApyR6ghcQzmdmOZVyzHYcqUHYJj2Vg?e=cQ4o5g">WP2Amplify</a> plugin',
+      <a target="_blank" href="https://1drv.ms/u/s!ApyR6ghcQzmdmOZVyzHYcqUHYJj2Vg?e=cQ4o5g">WP2Acelle</a> plugin',
   'automation.trigger.tree.woo-abandoned-cart' => 'Abandoned Cart Reminder',
   'automation.condition.open' => 'Subscriber read an Email',
   'automation.condition.click' => 'Subscriber clicks on a Link',
@@ -3246,14 +3246,14 @@
   'automation.item_title' => '{PRODUCT_NAME}',
   'automation.item_description' => '{PRODUCT_DESCRIPTION}',
   'automation.view_more' => 'View more',
-  'automation.can_not_connect_Amplify_sync' => 'Can not connect to Wordpress site. Error: :error',
+  'automation.can_not_connect_acelle_sync' => 'Can not connect to Wordpress site. Error: :error',
   'login.please_wait' => 'Logging in, please wait...',
   'automation.shop_name' => 'Shop name',
   'automation.shop_url' => 'URL',
   'automation.connect_url.change' => 'Change',
   'automation.trigger.woo-abandoned-cart.download_plugin' => 'If you are not sure
       what your WordPress endpoint is, please install
-      <a target="_blank" href=":link"AmplifySync</a> plugin',
+      <a target="_blank" href=":link">AcelleSync</a> plugin',
   'automation.buy_now' => 'Buy now',
   'quicktip.quick_tips' => 'Quick tips',
   'quicktip.identity.title' => 'Notes for administrator',
@@ -3278,12 +3278,12 @@
   'tracking_domain.test' => 'Test',
   'tracking_domain.test.wording' => 'We are taking you to the
       <a href="http://:domain" target="_blank">http://:domain</a> page.
-      If you see it load the login page of Amplify,
+      If you see it load the login page of Acelle,
       then your DNS configuration is good and your tracking domain is ready to go.
       Otherwise, please double check to make sure that your hosting server is
       configured correctly so that traffic to 
-      <a href="http://:domain" target="_blank">http://:domain</a> are also redirected to Amplify source.
-      In other words, make it an alias URL or your Amplify webapp.',
+      <a href="http://:domain" target="_blank">http://:domain</a> are also redirected to Acelle source.
+      In other words, make it an alias URL or your Acelle webapp.',
   'tracking_domain.test.proceed' => 'Proceed',
   'automation.delay.custom' => 'Custom',
   'automation.contacts_in_action' => 'Contacts in action',
@@ -3329,7 +3329,7 @@
   'whitelabel.turn_off' => 'Turn OFF whitelabelling',
   'whitelable.turned_of' => 'Whitelablling was successfully turned off',
   'automation.choose_a_product' => 'Choose a Product',
-  'automation.connected_to_store' => 'Connected to WooCommerce<br> via WordPress Plugin for Amplify',
+  'automation.connected_to_store' => 'Connected to WooCommerce<br> via WordPress Plugin for Acelle',
   'automation.connect_url.change_store' => 'Change Store',
   'automation.visit_store' => 'Visit store',
   'automation.site_administrator' => 'Site administrator',
@@ -3356,12 +3356,12 @@
   'source.sync' => 'Sync',
   'source.delete.confirm' => 'You are about to delete this source',
   'source.delete.can_not' => 'One or more source are not allowed to.',
-  'source.woo.desc' => 'Enter your WordPress Amplify enpoint here to connect to exist WooCommerce stores.
+  'source.woo.desc' => 'Enter your WordPress Acelle enpoint here to connect to exist WooCommerce stores.
       If you are not sure what your WordPress endpoint is, please install
-      <a target="_blank" href=":link">WordPress Plugin for Amplify</a> plugin',
+      <a target="_blank" href=":link">WordPress Plugin for Acelle</a> plugin',
   'source.woo.connect' => 'Connect to WooCommerce',
   'source.connect_url.help' => 'Your WordPress enpoint url',
-  'can_not_connect_Amplify_sync' => 'Can not connect to Wordpress site. Error: :error',
+  'can_not_connect_acelle_sync' => 'Can not connect to Wordpress site. Error: :error',
   'source.WooCommerce' => 'WooCommerce',
   'source.can_not_get_woo_data' => 'Could not get shop information from woocommerce. Error: :error',
   'source.woo.connecting' => 'Connecting...',
@@ -3408,7 +3408,7 @@
   'bill.remove_payment.confirm' => 'You are about to remove current payment method, this can be undone',
   'same_as_contact' => 'Same as contact information',
   'payment.choose_payment' => 'Choose your preferred payment methods',
-  'payment.choose_payment.desc' => 'Amplify supports the following payment methods
+  'payment.choose_payment.desc' => 'Acelle supports the following payment methods
       <br>Choose offline payment if you do not have a credit card or PayPal balance  ',
   'bill.user_id' => 'ID',
   'bill.last4' => 'Last 4 number',
@@ -3496,8 +3496,8 @@
   'transaction.method.paypal' => 'Paypal',
   'save_payment_method_proceed' => 'Save Payment Method & Proceed',
   'save_payment_method' => 'Save Payment Method',
-  'payment.cannot_charge' => 'Amplify cannot charge the invoice #:id. Error from :service: :error',
-  'payment.cannot_auto_charge' => 'Amplify cannot automatically charge the invoice #:id. Error from :service: :error',
+  'payment.cannot_charge' => 'Acelle cannot charge the invoice #:id. Error from :service: :error',
+  'payment.cannot_auto_charge' => 'Acelle cannot automatically charge the invoice #:id. Error from :service: :error',
   'contacts' => 'contacts',
   'payment.you_currenly_payment' => 'Your current payment method is: <strong>:method</strong>',
   'or_click_choose_another_method' => 'Or click here to choose another payment method',
@@ -3527,7 +3527,7 @@
   'cart.list' => 'Mail List',
   'cart.list.wording' => 'Choose the list for automatically adding buyer contacts',
   'cart.store' => 'Mail List',
-  'cart.store.wording' => 'Choose a WooCommerce Store source for connecting to Amplify Mail',
+  'cart.store.wording' => 'Choose a WooCommerce Store source for connecting to Acelle Mail',
   'automation.back_to_overview' => 'Back to campaign overview',
   'automation.action.operation' => 'Operation',
   'automation.action.operation.desc' => 'Perform an operation like: update/copy/move/tag contacts',
@@ -3582,7 +3582,7 @@
   'source.disconnect' => 'Disconnect',
   'source.switch_store' => 'Switch store',
   'source.have_products' => 'You have <strong>:count</strong> product(s)',
-  'source.your_store_synchronized' => 'your store\'s products are being synchronized to Amplify',
+  'source.your_store_synchronized' => 'your store\'s products are being synchronized to Acelle',
   'source.products.manage' => 'Manage',
   'source.launch' => 'Launch',
   'source.list.synchronized_to_this' => 'Contacts are automatically synchronized to your list',
@@ -3674,7 +3674,7 @@
   'label.done' => 'Done',
   'label.cancel' => 'Cancel',
   'geoip.title' => 'GeoIP Management',
-  'geoip.description' => 'Amplify uses a GeoIP dataset in order to resolve users\' location.',
+  'geoip.description' => 'Acelle uses a GeoIP dataset in order to resolve users\' location.',
   'invoice.payment_is_being_verified' => 'Payment is being verified',
   'campaign.template.old_ver_error' => 'Campaigns created by previous (older) versions cannot be loaded in the current version
     of the application. Don\'t worry, it will work correctly for new campaigns you create',
@@ -3698,8 +3698,8 @@
   'paypal.user.description' => 'Pay for your subscription & services using your PayPal account.',
   'razorpay.user.description' => 'Pay for your subscription & services using your debit
         or credit cards. Auto billing is not supported',
-  'store.connected_with_amplify' => 'Your store is connected with Amplify',
-  'store.connected_with_amplify.desc' => 'While connected, Amplify can synchronize products
+  'store.connected_with_acelle' => 'Your store is connected with Acelle',
+  'store.connected_with_acelle.desc' => 'While connected, Acelle can synchronize products
     and contacts from your store to a specified mail list',
   'source.refresh' => 'Refresh',
   'subscription.thanks.click_to_start' => 'Thank you for subscribing to our SAAS. Click the button
@@ -3716,7 +3716,7 @@
   'ends_at' => 'Ends at',
   'countries' => 'Countries',
   'cron_string.copied' => 'Cron string was copied to clipboard',
-  'language.translate.intro' => '<p>Amplify Mail lets you customize the user interface (UI) text in all areas of the web
+  'language.translate.intro' => '<p>Acelle Mail lets you customize the user interface (UI) text in all areas of the web
     application like titles, labels, tooltips, links, buttons... You can translate it from the original
     English language to Spanish and/or change these phrases the way you want.</p><p>
       Phrases are organized in different files which you can choose in the list below
@@ -3742,7 +3742,7 @@
   'template.change_name.intro' => 'Enter your new template name below',
   'template.name.changed' => 'Template name was changed',
   'verification_credits_limit' => 'Verification credits limit',
-  'subscription.secure_checkout' => 'Amplify SECURE CHECKOUT',
+  'subscription.secure_checkout' => 'ACELLE SECURE CHECKOUT',
   'subscription.choose_plan.title' => 'Choose a plan',
   'subscription.choose_plan.subtitle' => 'You need to subscribe to a plan in order to
     experience the application.',
@@ -3848,7 +3848,7 @@
     <p class="mb-2">
       For example: if the specified email is not opened or
       clicked at the first check, and with a waiting time of
-      [<span class="fw-600 wait_day">:days</span>], Amplify will try to check again and
+      [<span class="fw-600 wait_day">:days</span>], Acelle will try to check again and
       again during the next [<span class="fw-600 wait_day">:days</span>] before proceed
       with NO branch.
     </p>

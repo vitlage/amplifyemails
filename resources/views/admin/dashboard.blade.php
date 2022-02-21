@@ -8,21 +8,21 @@
 @endsection
 
 @section('content')
-<div class="new_card_parent">
+<div class="row new_card_parent">
         <div class="for_blur_bg"></div>
     <h1 class="mb-2 mt-4">{{ trans('messages.backend_dashboard_hello', ['name' => Auth::user()->displayName()]) }}</h1>
     <p>{{ trans('messages.backend_dashboard_welcome') }}</p>
 </div>
     @include('admin.notifications._top', ['notifications' => $notifications])
 
-    <div class="row mt-5">
-        <div class="col-md-6 custom-box">
+    <div class="row boxx mt-5">
+        <div class="col-md-6 custom-box2">
             <h4 class="text-semibold"><span class="material-icons-round me-2">
 people_outline
 </span> {{ trans('messages.customers_growth') }}</h4>
             @include('admin.customers._growth_chart')
         </div>
-        <div class="col-md-6 custom-box">
+        <div class="col-md-6 custom-box2">
             <h4 class="text-semibold"><i class="material-icons-outlined me-2">
 assignment_turned_in
 </i> {{ trans('messages.plans_chart') }}</h4>
@@ -30,8 +30,8 @@ assignment_turned_in
         </div>
     </div>
 
-    <div class="row mt-5">
-        <div class="col-md-6 custom-box">
+    <div class="row boxx mt-5">
+        <div class="col-md-6 custom-box2">
             <h4 class="text-semibold">
                 <span class="material-icons-outlined me-2">
                 assignment_turned_in
@@ -97,7 +97,7 @@ assignment_turned_in
                 @endforelse
             </ul>
         </div>
-        <div class="col-md-6 custom-box">
+        <div class="col-md-6 custom-box2">
             <h4 class="text-semibold">
                 <span class="material-icons-round me-2">
                     people_outline

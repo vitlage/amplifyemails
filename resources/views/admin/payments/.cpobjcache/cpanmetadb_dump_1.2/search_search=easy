@@ -1,0 +1,1429 @@
+--- 
+matched_count: 285
+results: 
+  - 
+    AI::NNEasy: 
+      description: AI::NNEasy - latest:0.06
+      distfile: G/GM/GMPASSOS/AI-NNEasy-0.06.tar.gz
+      version: '0.06'
+  - 
+    AI::NNEasy::NN: 
+      description: AI::NNEasy::NN - latest:0.06
+      distfile: G/GM/GMPASSOS/AI-NNEasy-0.06.tar.gz
+      version: '0.06'
+  - 
+    AI::NNEasy::NN::backprop: 
+      description: AI::NNEasy::NN::backprop - latest:0.06
+      distfile: G/GM/GMPASSOS/AI-NNEasy-0.06.tar.gz
+      version: '0.06'
+  - 
+    AI::NNEasy::NN::feedforward: 
+      description: AI::NNEasy::NN::feedforward - latest:0.06
+      distfile: G/GM/GMPASSOS/AI-NNEasy-0.06.tar.gz
+      version: '0.06'
+  - 
+    AI::NNEasy::NN::feedforward_backprop: 
+      description: AI::NNEasy::NN::feedforward_backprop - latest:0.06
+      distfile: G/GM/GMPASSOS/AI-NNEasy-0.06.tar.gz
+      version: '0.06'
+  - 
+    AI::NNEasy::NN::layer: 
+      description: AI::NNEasy::NN::layer - latest:undef
+      distfile: G/GM/GMPASSOS/AI-NNEasy-0.06.tar.gz
+      version: undef
+  - 
+    AI::NNEasy::NN::node: 
+      description: AI::NNEasy::NN::node - latest:undef
+      distfile: G/GM/GMPASSOS/AI-NNEasy-0.06.tar.gz
+      version: undef
+  - 
+    AI::NNEasy::NN::reinforce: 
+      description: AI::NNEasy::NN::reinforce - latest:undef
+      distfile: G/GM/GMPASSOS/AI-NNEasy-0.06.tar.gz
+      version: undef
+  - 
+    Algorithm::Evolutionary::Op::Easy: 
+      description: Algorithm::Evolutionary::Op::Easy - latest:3.5
+      distfile: J/JM/JMERELO/Algorithm-Evolutionary-0.82.1.tar.gz
+      version: '3.5'
+  - 
+    Algorithm::Evolutionary::Op::Easy_MO: 
+      description: Algorithm::Evolutionary::Op::Easy_MO - latest:3.6
+      distfile: J/JM/JMERELO/Algorithm-Evolutionary-0.82.1.tar.gz
+      version: '3.6'
+  - 
+    AnyEvent::Net::Curl::Queued::Easy: 
+      description: AnyEvent::Net::Curl::Queued::Easy - latest:0.049
+      distfile: S/SY/SYP/AnyEvent-Net-Curl-Queued-0.049.tar.gz
+      version: '0.049'
+  - 
+    AnyEvent::Subprocess::Easy: 
+      description: AnyEvent::Subprocess::Easy - latest:1.102912
+      distfile: J/JR/JROCKWAY/AnyEvent-Subprocess-1.102912.tar.gz
+      version: '1.102912'
+  - 
+    Authen::Krb5::Easy: 
+      description: Authen::Krb5::Easy - latest:0.90
+      distfile: S/SC/SCHALLEE/Authen-Krb5-Easy-0.90.tar.gz
+      version: '0.90'
+  - 
+    AutoSQL::EasyArgv: 
+      description: AutoSQL::EasyArgv - latest:undef
+      distfile: J/JU/JUGUANG/AutoSQL-0.2.tar.gz
+      version: undef
+  - 
+    BerkeleyDB::Easy: 
+      description: BerkeleyDB::Easy - latest:0.06
+      distfile: R/RS/RSCHABER/BerkeleyDB-Easy-0.06.tar.gz
+      version: '0.06'
+  - 
+    BerkeleyDB::Easy::Btree: 
+      description: BerkeleyDB::Easy::Btree - latest:0.06
+      distfile: R/RS/RSCHABER/BerkeleyDB-Easy-0.06.tar.gz
+      version: '0.06'
+  - 
+    BerkeleyDB::Easy::Common: 
+      description: BerkeleyDB::Easy::Common - latest:undef
+      distfile: R/RS/RSCHABER/BerkeleyDB-Easy-0.06.tar.gz
+      version: undef
+  - 
+    BerkeleyDB::Easy::Cursor: 
+      description: BerkeleyDB::Easy::Cursor - latest:undef
+      distfile: R/RS/RSCHABER/BerkeleyDB-Easy-0.06.tar.gz
+      version: undef
+  - 
+    BerkeleyDB::Easy::Error: 
+      description: BerkeleyDB::Easy::Error - latest:undef
+      distfile: R/RS/RSCHABER/BerkeleyDB-Easy-0.06.tar.gz
+      version: undef
+  - 
+    BerkeleyDB::Easy::Handle: 
+      description: BerkeleyDB::Easy::Handle - latest:undef
+      distfile: R/RS/RSCHABER/BerkeleyDB-Easy-0.06.tar.gz
+      version: undef
+  - 
+    BerkeleyDB::Easy::Hash: 
+      description: BerkeleyDB::Easy::Hash - latest:0.06
+      distfile: R/RS/RSCHABER/BerkeleyDB-Easy-0.06.tar.gz
+      version: '0.06'
+  - 
+    BerkeleyDB::Easy::Heap: 
+      description: BerkeleyDB::Easy::Heap - latest:0.06
+      distfile: R/RS/RSCHABER/BerkeleyDB-Easy-0.06.tar.gz
+      version: '0.06'
+  - 
+    BerkeleyDB::Easy::Queue: 
+      description: BerkeleyDB::Easy::Queue - latest:0.06
+      distfile: R/RS/RSCHABER/BerkeleyDB-Easy-0.06.tar.gz
+      version: '0.06'
+  - 
+    BerkeleyDB::Easy::Recno: 
+      description: BerkeleyDB::Easy::Recno - latest:0.06
+      distfile: R/RS/RSCHABER/BerkeleyDB-Easy-0.06.tar.gz
+      version: '0.06'
+  - 
+    BerkeleyDB::Easy::Unknown: 
+      description: BerkeleyDB::Easy::Unknown - latest:0.06
+      distfile: R/RS/RSCHABER/BerkeleyDB-Easy-0.06.tar.gz
+      version: '0.06'
+  - 
+    Bio::DB::EasyArgv: 
+      description: Bio::DB::EasyArgv - latest:0
+      distfile: C/CJ/CJFIELDS/BioPerl-DB-1.006900.tar.gz
+      version: 0
+  - 
+    Bio::EasyYang: 
+      description: Bio::EasyYang - latest:1
+      distfile: H/HV/HVALVERDE/Bio-EasyYang-1.tar.gz
+      version: 1
+  - 
+    Bone::Easy: 
+      description: Bone::Easy - latest:0.04
+      distfile: M/MS/MSCHWERN/Bone-Easy-0.04.tar.gz
+      version: '0.04'
+  - 
+    Bone::Easy::Rules: 
+      description: Bone::Easy::Rules - latest:undef
+      distfile: M/MS/MSCHWERN/Bone-Easy-0.04.tar.gz
+      version: undef
+  - 
+    Bot::BasicBot::Pluggable::Module::GitHub::EasyLinks: 
+      description: Bot::BasicBot::Pluggable::Module::GitHub::EasyLinks - latest:undef
+      distfile: B/BI/BIGPRESH/Bot-BasicBot-Pluggable-Module-GitHub-0.04.tar.gz
+      version: undef
+  - 
+    Bot::Cobalt::Core::Role::EasyAccessors: 
+      description: Bot::Cobalt::Core::Role::EasyAccessors - latest:0.021003
+      distfile: A/AV/AVENJ/Bot-Cobalt-0.021003.tar.gz
+      version: '0.021003'
+  - 
+    Bot::Cobalt::Plugin::Silly::BoneEasy: 
+      description: Bot::Cobalt::Plugin::Silly::BoneEasy - latest:0.031002
+      distfile: A/AV/AVENJ/Bot-Cobalt-Plugin-Silly-0.031002.tar.gz
+      version: '0.031002'
+  - 
+    CGI::Easy: 
+      description: CGI::Easy - latest:v2.0.1
+      distfile: P/PO/POWERMAN/CGI-Easy-v2.0.1.tar.gz
+      version: v2.0.1
+  - 
+    CGI::Easy::Headers: 
+      description: CGI::Easy::Headers - latest:v2.0.1
+      distfile: P/PO/POWERMAN/CGI-Easy-v2.0.1.tar.gz
+      version: v2.0.1
+  - 
+    CGI::Easy::Request: 
+      description: CGI::Easy::Request - latest:v2.0.1
+      distfile: P/PO/POWERMAN/CGI-Easy-v2.0.1.tar.gz
+      version: v2.0.1
+  - 
+    CGI::Easy::SendFile: 
+      description: CGI::Easy::SendFile - latest:v2.0.1
+      distfile: P/PO/POWERMAN/CGI-Easy-SendFile-v2.0.1.tar.gz
+      version: v2.0.1
+  - 
+    CGI::Easy::Session: 
+      description: CGI::Easy::Session - latest:v2.0.1
+      distfile: P/PO/POWERMAN/CGI-Easy-v2.0.1.tar.gz
+      version: v2.0.1
+  - 
+    CGI::Easy::URLconf: 
+      description: CGI::Easy::URLconf - latest:v2.0.1
+      distfile: P/PO/POWERMAN/CGI-Easy-URLconf-v2.0.1.tar.gz
+      version: v2.0.1
+  - 
+    CGI::Easy::Util: 
+      description: CGI::Easy::Util - latest:v2.0.1
+      distfile: P/PO/POWERMAN/CGI-Easy-v2.0.1.tar.gz
+      version: v2.0.1
+  - 
+    CGI::UploadEasy: 
+      description: CGI::UploadEasy - latest:1.00
+      distfile: G/GU/GUNNAR/CGI-UploadEasy-1.00.tar.gz
+      version: '1.00'
+  - 
+    Caller::Easy: 
+      description: Caller::Easy - latest:0.03
+      distfile: W/WO/WORTHMINE/Caller-Easy-0.03.tar.gz
+      version: '0.03'
+  - 
+    Class::Easy: 
+      description: Class::Easy - latest:0.18
+      distfile: A/AP/APLA/Class-Easy-0.18.tar.gz
+      version: '0.18'
+  - 
+    Class::Easy::Base: 
+      description: Class::Easy::Base - latest:undef
+      distfile: A/AP/APLA/Class-Easy-0.18.tar.gz
+      version: undef
+  - 
+    Class::Easy::Import: 
+      description: Class::Easy::Import - latest:undef
+      distfile: A/AP/APLA/Class-Easy-0.18.tar.gz
+      version: undef
+  - 
+    Class::Easy::Log: 
+      description: Class::Easy::Log - latest:undef
+      distfile: A/AP/APLA/Class-Easy-0.18.tar.gz
+      version: undef
+  - 
+    Class::Easy::Log::Tie: 
+      description: Class::Easy::Log::Tie - latest:undef
+      distfile: A/AP/APLA/Class-Easy-0.18.tar.gz
+      version: undef
+  - 
+    Class::Easy::Timer: 
+      description: Class::Easy::Timer - latest:undef
+      distfile: A/AP/APLA/Class-Easy-0.18.tar.gz
+      version: undef
+  - 
+    Crypt::Bcrypt::Easy: 
+      description: Crypt::Bcrypt::Easy - latest:2.012002
+      distfile: A/AV/AVENJ/App-bmkpasswd-2.012002.tar.gz
+      version: '2.012002'
+  - 
+    Crypt::CBCeasy: 
+      description: Crypt::CBCeasy - latest:0.24
+      distfile: M/MB/MBLAZ/Crypt-CBCeasy-0.24.tar.gz
+      version: '0.24'
+  - 
+    Crypt::Mode::CBC::Easy: 
+      description: Crypt::Mode::CBC::Easy - latest:0.006
+      distfile: S/SR/SRCHULO/Crypt-Mode-CBC-Easy-0.006.tar.gz
+      version: '0.006'
+  - 
+    Crypt::PKCS11::Easy: 
+      description: Crypt::PKCS11::Easy - latest:0.180080
+      distfile: I/IO/IOANR/Crypt-PKCS11-Easy-0.180080.tar.gz
+      version: '0.180080'
+  - 
+    DBI::Easy: 
+      description: DBI::Easy - latest:0.24
+      distfile: A/AP/APLA/DBI-Easy-0.24.tar.gz
+      version: '0.24'
+  - 
+    DBI::Easy::Helper: 
+      description: DBI::Easy::Helper - latest:undef
+      distfile: A/AP/APLA/DBI-Easy-0.24.tar.gz
+      version: undef
+  - 
+    DBI::Easy::Record: 
+      description: DBI::Easy::Record - latest:undef
+      distfile: A/AP/APLA/DBI-Easy-0.24.tar.gz
+      version: undef
+  - 
+    DBI::Easy::Record::Collection: 
+      description: DBI::Easy::Record::Collection - latest:undef
+      distfile: A/AP/APLA/DBI-Easy-0.24.tar.gz
+      version: undef
+  - 
+    DBI::Easy::Vendor::Base: 
+      description: DBI::Easy::Vendor::Base - latest:undef
+      distfile: A/AP/APLA/DBI-Easy-0.24.tar.gz
+      version: undef
+  - 
+    DBI::Easy::Vendor::mysql: 
+      description: DBI::Easy::Vendor::mysql - latest:undef
+      distfile: A/AP/APLA/DBI-Easy-0.24.tar.gz
+      version: undef
+  - 
+    DBI::Easy::Vendor::oracle: 
+      description: DBI::Easy::Vendor::oracle - latest:undef
+      distfile: A/AP/APLA/DBI-Easy-0.24.tar.gz
+      version: undef
+  - 
+    DBI::Easy::Vendor::postgresql: 
+      description: DBI::Easy::Vendor::postgresql - latest:undef
+      distfile: A/AP/APLA/DBI-Easy-0.24.tar.gz
+      version: undef
+  - 
+    DBIx::Class::EasyConf::YAML: 
+      description: DBIx::Class::EasyConf::YAML - latest:0.11
+      distfile: M/MO/MONTUORI/DBIx-Class-EasyConf-YAML-0.11.tar.gz
+      version: '0.11'
+  - 
+    DBIx::Class::EasyFixture: 
+      description: DBIx::Class::EasyFixture - latest:0.13
+      distfile: O/OV/OVID/DBIx-Class-EasyFixture-0.13.tar.gz
+      version: '0.13'
+  - 
+    DBIx::Class::EasyFixture::Definition: 
+      description: DBIx::Class::EasyFixture::Definition - latest:0.13
+      distfile: O/OV/OVID/DBIx-Class-EasyFixture-0.13.tar.gz
+      version: '0.13'
+  - 
+    DBIx::Class::EasyFixture::Tutorial: 
+      description: DBIx::Class::EasyFixture::Tutorial - latest:0.13
+      distfile: O/OV/OVID/DBIx-Class-EasyFixture-0.13.tar.gz
+      version: '0.13'
+  - 
+    DBIx::Easy: 
+      description: DBIx::Easy - latest:0.21
+      distfile: H/HO/HORNBURG/DBIx-Easy-0.21.tar.gz
+      version: '0.21'
+  - 
+    DBIx::Easy::Import: 
+      description: DBIx::Easy::Import - latest:0.19
+      distfile: H/HO/HORNBURG/DBIx-Easy-0.21.tar.gz
+      version: '0.19'
+  - 
+    DNS::EasyDNS: 
+      description: DNS::EasyDNS - latest:0.04
+      distfile: G/GB/GBROCK/DNS-EasyDNS-0.04.tar.gz
+      version: '0.04'
+  - 
+    Daemon::Easy: 
+      description: Daemon::Easy - latest:0.02
+      distfile: J/JZ/JZHANG/Daemon-Easy-0.02.tar.gz
+      version: '0.02'
+  - 
+    Data::Dumper::EasyOO: 
+      description: Data::Dumper::EasyOO - latest:0.0503
+      distfile: J/JC/JCROMIE/Data-Dumper-EasyOO-0.0503.tar.gz
+      version: '0.0503'
+  - 
+    Data::Iterator::EasyObj: 
+      description: Data::Iterator::EasyObj - latest:0.01
+      distfile: T/TE/TEEJAY/Data/Iterator/Data-Iterator-EasyObj-0.01.tar.gz
+      version: '0.01'
+  - 
+    Data::Rx::CommonType::EasyNew: 
+      description: Data::Rx::CommonType::EasyNew - latest:0.200007
+      distfile: R/RJ/RJBS/Data-Rx-0.200007.tar.gz
+      version: '0.200007'
+  - 
+    Date::Easy: 
+      description: Date::Easy - latest:0.10
+      distfile: B/BA/BAREFOOT/Date-Easy-0.10.tar.gz
+      version: '0.10'
+  - 
+    Date::Easy::Date: 
+      description: Date::Easy::Date - latest:0.10
+      distfile: B/BA/BAREFOOT/Date-Easy-0.10.tar.gz
+      version: '0.10'
+  - 
+    Date::Easy::Datetime: 
+      description: Date::Easy::Datetime - latest:0.10
+      distfile: B/BA/BAREFOOT/Date-Easy-0.10.tar.gz
+      version: '0.10'
+  - 
+    Date::Easy::Units: 
+      description: Date::Easy::Units - latest:0.10
+      distfile: B/BA/BAREFOOT/Date-Easy-0.10.tar.gz
+      version: '0.10'
+  - 
+    DateTimeX::Easy: 
+      description: DateTimeX::Easy - latest:0.089
+      distfile: R/RO/ROKR/DateTimeX-Easy-0.089.tar.gz
+      version: '0.089'
+  - 
+    Debug::Easy: 
+      description: Debug::Easy - latest:2.07
+      distfile: R/RK/RKELSCH/Debug-Easy-2.07.tar.gz
+      version: '2.07'
+  - 
+    Device::RFXCOM::Decoder::HomeEasy: 
+      description: Device::RFXCOM::Decoder::HomeEasy - latest:1.163170
+      distfile: B/BE/BEANZ/Device-RFXCOM-1.163170.tar.gz
+      version: '1.163170'
+  - 
+    Device::RFXCOM::Encoder::HomeEasy: 
+      description: Device::RFXCOM::Encoder::HomeEasy - latest:1.163170
+      distfile: B/BE/BEANZ/Device-RFXCOM-1.163170.tar.gz
+      version: '1.163170'
+  - 
+    Device::RFXCOM::Response::HomeEasy: 
+      description: Device::RFXCOM::Response::HomeEasy - latest:1.163170
+      distfile: B/BE/BEANZ/Device-RFXCOM-1.163170.tar.gz
+      version: '1.163170'
+  - 
+    Dist::Zilla::Role::PluginBundle::Easy: 
+      description: Dist::Zilla::Role::PluginBundle::Easy - latest:6.024
+      distfile: R/RJ/RJBS/Dist-Zilla-6.024.tar.gz
+      version: '6.024'
+  - 
+    Easy: 
+      description: Easy - latest:0.01
+      distfile: C/CA/CARTER/Easy-WML-0.1.tar.gz
+      version: '0.01'
+  - 
+    EasyDB: 
+      description: EasyDB - latest:undef
+      distfile: G/GA/GABY/EasyDB.0.5b2.tgz
+      version: undef
+  - 
+    EasyDB::Query::Delete: 
+      description: EasyDB::Query::Delete - latest:undef
+      distfile: G/GA/GABY/EasyDB.0.5b2.tgz
+      version: undef
+  - 
+    EasyDB::Query::Insert: 
+      description: EasyDB::Query::Insert - latest:undef
+      distfile: G/GA/GABY/EasyDB.0.5b2.tgz
+      version: undef
+  - 
+    EasyDB::Query::Select: 
+      description: EasyDB::Query::Select - latest:undef
+      distfile: G/GA/GABY/EasyDB.0.5b2.tgz
+      version: undef
+  - 
+    EasyDB::Query::Update: 
+      description: EasyDB::Query::Update - latest:undef
+      distfile: G/GA/GABY/EasyDB.0.5b2.tgz
+      version: undef
+  - 
+    EasyDB::Util: 
+      description: EasyDB::Util - latest:undef
+      distfile: G/GA/GABY/EasyDB.0.5b2.tgz
+      version: undef
+  - 
+    EasyDBAccess: 
+      description: EasyDBAccess - latest:3.001002
+      distfile: F/FO/FOOLFISH/EasyDBAccess-3.1.2.tar.gz
+      version: '3.001002'
+  - 
+    EasyDate: 
+      description: EasyDate - latest:undef
+      distfile: D/DS/DSAMZA/EasyDate-103.zip
+      version: undef
+  - 
+    EasyMail: 
+      description: EasyMail - latest:2.005002
+      distfile: F/FO/FOOLFISH/EasyMail-2.5.2.tar.gz
+      version: '2.005002'
+  - 
+    EasyMail::Sender: 
+      description: EasyMail::Sender - latest:2.005002
+      distfile: F/FO/FOOLFISH/EasyMail-2.5.2.tar.gz
+      version: '2.005002'
+  - 
+    Egg::Mod::EasyDBI: 
+      description: Egg::Mod::EasyDBI - latest:3.00
+      distfile: L/LU/LUSHE/Egg-Release-DBI-0.06.tar.gz
+      version: '3.00'
+  - 
+    Egg::Plugin::EasyDBI: 
+      description: Egg::Plugin::EasyDBI - latest:3.01
+      distfile: L/LU/LUSHE/Egg-Release-DBI-0.06.tar.gz
+      version: '3.01'
+  - 
+    Exporter::Easy: 
+      description: Exporter::Easy - latest:0.18
+      distfile: N/NE/NEILB/Exporter-Easy-0.18.tar.gz
+      version: '0.18'
+  - 
+    Finance::Bank::easybank: 
+      description: Finance::Bank::easybank - latest:1.05
+      distfile: F/FL/FLORIAN/Finance-Bank-easybank-1.05.tar.gz
+      version: '1.05'
+  - 
+    Flux::In::Role::Easy: 
+      description: Flux::In::Role::Easy - latest:1.03
+      distfile: M/MM/MMCLERIC/Flux-1.03.tar.gz
+      version: '1.03'
+  - 
+    Flux::Mapper::Easy: 
+      description: Flux::Mapper::Easy - latest:1.02
+      distfile: M/MM/MMCLERIC/Flux-1.02.tar.gz
+      version: '1.02'
+  - 
+    Flux::Mapper::Role::Easy: 
+      description: Flux::Mapper::Role::Easy - latest:1.03
+      distfile: M/MM/MMCLERIC/Flux-1.03.tar.gz
+      version: '1.03'
+  - 
+    Flux::Out::Role::Easy: 
+      description: Flux::Out::Role::Easy - latest:1.03
+      distfile: M/MM/MMCLERIC/Flux-1.03.tar.gz
+      version: '1.03'
+  - 
+    Frontier::Client::Easy: 
+      description: Frontier::Client::Easy - latest:1.03
+      distfile: D/DF/DFREEDMAN/Frontier-Client-Easy-1.03.tar.gz
+      version: '1.03'
+  - 
+    Getopt::Easy: 
+      description: Getopt::Easy - latest:0.1
+      distfile: J/JO/JONBJ/Getopt-Easy-0.1.tar.gz
+      version: '0.1'
+  - 
+    Graph::Easy: 
+      description: Graph::Easy - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::As_ascii: 
+      description: Graph::Easy::As_ascii - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::As_graph6: 
+      description: Graph::Easy::As_graph6 - latest:9
+      distfile: K/KR/KRYDE/Graph-Graph6-9.tar.gz
+      version: 9
+  - 
+    Graph::Easy::As_graphml: 
+      description: Graph::Easy::As_graphml - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::As_graphviz: 
+      description: Graph::Easy::As_graphviz - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::As_sparse6: 
+      description: Graph::Easy::As_sparse6 - latest:9
+      distfile: K/KR/KRYDE/Graph-Graph6-9.tar.gz
+      version: 9
+  - 
+    Graph::Easy::As_svg: 
+      description: Graph::Easy::As_svg - latest:0.28
+      distfile: S/SH/SHLOMIF/Graph-Easy-As_svg-0.28.tar.gz
+      version: '0.28'
+  - 
+    Graph::Easy::As_txt: 
+      description: Graph::Easy::As_txt - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::As_vcg: 
+      description: Graph::Easy::As_vcg - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Attributes: 
+      description: Graph::Easy::Attributes - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Base: 
+      description: Graph::Easy::Base - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Edge: 
+      description: Graph::Easy::Edge - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Edge::Cell: 
+      description: Graph::Easy::Edge::Cell - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Edge::Cell::Empty: 
+      description: Graph::Easy::Edge::Cell::Empty - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Group: 
+      description: Graph::Easy::Group - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Group::Anon: 
+      description: Graph::Easy::Group::Anon - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Group::Cell: 
+      description: Graph::Easy::Group::Cell - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Heap: 
+      description: Graph::Easy::Heap - latest:undef
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: undef
+  - 
+    Graph::Easy::Layout: 
+      description: Graph::Easy::Layout - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Layout::Chain: 
+      description: Graph::Easy::Layout::Chain - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Layout::Force: 
+      description: Graph::Easy::Layout::Force - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Layout::Grid: 
+      description: Graph::Easy::Layout::Grid - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Layout::Path: 
+      description: Graph::Easy::Layout::Path - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Layout::Repair: 
+      description: Graph::Easy::Layout::Repair - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Layout::Scout: 
+      description: Graph::Easy::Layout::Scout - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Manual: 
+      description: Graph::Easy::Manual - latest:0.41
+      distfile: T/TE/TELS/graph/Graph-Easy-Manual-0.41.tar.gz
+      version: '0.41'
+  - 
+    Graph::Easy::Node: 
+      description: Graph::Easy::Node - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Node::Anon: 
+      description: Graph::Easy::Node::Anon - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Node::Cell: 
+      description: Graph::Easy::Node::Cell - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Node::Empty: 
+      description: Graph::Easy::Node::Empty - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Parser: 
+      description: Graph::Easy::Parser - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Parser::Graph6: 
+      description: Graph::Easy::Parser::Graph6 - latest:9
+      distfile: K/KR/KRYDE/Graph-Graph6-9.tar.gz
+      version: 9
+  - 
+    Graph::Easy::Parser::Graphviz: 
+      description: Graph::Easy::Parser::Graphviz - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::Parser::VCG: 
+      description: Graph::Easy::Parser::VCG - latest:0.76
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: '0.76'
+  - 
+    Graph::Easy::StateMachine: 
+      description: Graph::Easy::StateMachine - latest:0.07
+      distfile: D/DA/DAVIDNICO/StateMachines/Graph-Easy-StateMachine-0.07.tar.gz
+      version: '0.07'
+  - 
+    Graph::Easy::Util: 
+      description: Graph::Easy::Util - latest:undef
+      distfile: S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+      version: undef
+  - 
+    Graph::Easy::Weighted: 
+      description: Graph::Easy::Weighted - latest:0.07
+      distfile: G/GE/GENE/Graph-Easy-Weighted-0.07.tar.gz
+      version: '0.07'
+  - 
+    HTML::EasyTags: 
+      description: HTML::EasyTags - latest:1.071
+      distfile: D/DU/DUNCAND/HTML-EasyTags-1.071.tar.gz
+      version: '1.071'
+  - 
+    HTTP::AnyUA::Backend::Net::Curl::Easy: 
+      description: HTTP::AnyUA::Backend::Net::Curl::Easy - latest:0.904
+      distfile: C/CC/CCM/HTTP-AnyUA-0.904.tar.gz
+      version: '0.904'
+  - 
+    HTTP::Easy: 
+      description: HTTP::Easy - latest:0.02
+      distfile: M/MO/MONS/HTTP-Easy-0.02.tar.gz
+      version: '0.02'
+  - 
+    HTTP::Easy::Cookies: 
+      description: HTTP::Easy::Cookies - latest:undef
+      distfile: M/MO/MONS/HTTP-Easy-0.02.tar.gz
+      version: undef
+  - 
+    HTTP::Easy::Cookies::PP: 
+      description: HTTP::Easy::Cookies::PP - latest:undef
+      distfile: M/MO/MONS/HTTP-Easy-0.02.tar.gz
+      version: undef
+  - 
+    HTTP::Easy::Headers: 
+      description: HTTP::Easy::Headers - latest:undef
+      distfile: M/MO/MONS/HTTP-Easy-0.02.tar.gz
+      version: undef
+  - 
+    HTTP::Easy::Headers::PP: 
+      description: HTTP::Easy::Headers::PP - latest:undef
+      distfile: M/MO/MONS/HTTP-Easy-0.02.tar.gz
+      version: undef
+  - 
+    HTTP::Easy::Status: 
+      description: HTTP::Easy::Status - latest:undef
+      distfile: M/MO/MONS/HTTP-Easy-0.02.tar.gz
+      version: undef
+  - 
+    HTTP::Easy::URI: 
+      description: HTTP::Easy::URI - latest:undef
+      distfile: M/MO/MONS/HTTP-Easy-0.02.tar.gz
+      version: undef
+  - 
+    IO::Easy: 
+      description: IO::Easy - latest:0.16
+      distfile: A/AP/APLA/IO-Easy-0.16.tar.gz
+      version: '0.16'
+  - 
+    IO::Easy::Dir: 
+      description: IO::Easy::Dir - latest:undef
+      distfile: A/AP/APLA/IO-Easy-0.16.tar.gz
+      version: undef
+  - 
+    IO::Easy::File: 
+      description: IO::Easy::File - latest:undef
+      distfile: A/AP/APLA/IO-Easy-0.16.tar.gz
+      version: undef
+  - 
+    IO::Pty::Easy: 
+      description: IO::Pty::Easy - latest:0.10
+      distfile: D/DO/DOY/IO-Pty-Easy-0.10.tar.gz
+      version: '0.10'
+  - 
+    IRC::Bot::Hangman::WordList::TooEasy: 
+      description: IRC::Bot::Hangman::WordList::TooEasy - latest:undef
+      distfile: P/PD/PDENIS/IRC-Bot-Hangman-0.1.tar.gz
+      version: undef
+  - 
+    LWP::ConsoleLogger::Easy: 
+      description: LWP::ConsoleLogger::Easy - latest:0.000043
+      distfile: O/OA/OALDERS/LWP-ConsoleLogger-0.000043.tar.gz
+      version: '0.000043'
+  - 
+    Lingua::EN::Numbers::Easy: 
+      description: Lingua::EN::Numbers::Easy - latest:2014120401
+      distfile: A/AB/ABIGAIL/Lingua-EN-Numbers-Easy-2014120401.tar.gz
+      version: '2014120401'
+  - 
+    Linux::Perl::EasyPack: 
+      description: Linux::Perl::EasyPack - latest:undef
+      distfile: F/FE/FELIPE/Linux-Perl-0.15.tar.gz
+      version: undef
+  - 
+    Log::Contextual::Easy::Default: 
+      description: Log::Contextual::Easy::Default - latest:0.008001
+      distfile: F/FR/FREW/Log-Contextual-0.008001.tar.gz
+      version: '0.008001'
+  - 
+    Log::Contextual::Easy::Package: 
+      description: Log::Contextual::Easy::Package - latest:0.008001
+      distfile: F/FR/FREW/Log-Contextual-0.008001.tar.gz
+      version: '0.008001'
+  - 
+    Log::Log4perl::Warn::Multiple::EasyInit: 
+      description: Log::Log4perl::Warn::Multiple::EasyInit - latest:0.000001
+      distfile: C/CH/CHISEL/Log-Log4perl-Warn-Multiple-EasyInit-0.0.1.tar.gz
+      version: '0.000001'
+  - 
+    Logic::Easy: 
+      description: Logic::Easy - latest:undef
+      distfile: L/LP/LPALMER/Logic-0.02.tar.gz
+      version: undef
+  - 
+    Lucy::Analysis::EasyAnalyzer: 
+      description: Lucy::Analysis::EasyAnalyzer - latest:0.006002
+      distfile: N/NW/NWELLNHOF/Lucy-0.6.2.tar.gz
+      version: '0.006002'
+  - 
+    MLDBM::Easy: 
+      description: MLDBM::Easy - latest:0.01
+      distfile: P/PI/PINYAN/MLDBM-Easy-0.01.tar.gz
+      version: '0.01'
+  - 
+    MLDBM::Easy::Array: 
+      description: MLDBM::Easy::Array - latest:0.01
+      distfile: P/PI/PINYAN/MLDBM-Easy-0.01.tar.gz
+      version: '0.01'
+  - 
+    MLDBM::Easy::Hash: 
+      description: MLDBM::Easy::Hash - latest:0.01
+      distfile: P/PI/PINYAN/MLDBM-Easy-0.01.tar.gz
+      version: '0.01'
+  - 
+    MLDBM::Easy::Scalar: 
+      description: MLDBM::Easy::Scalar - latest:0.01
+      distfile: P/PI/PINYAN/MLDBM-Easy-0.01.tar.gz
+      version: '0.01'
+  - 
+    Mail::SendEasy: 
+      description: Mail::SendEasy - latest:1.2
+      distfile: G/GM/GMPASSOS/Mail-SendEasy-1.2.tar.gz
+      version: '1.2'
+  - 
+    Mail::SendEasy::AUTH: 
+      description: Mail::SendEasy::AUTH - latest:0.01
+      distfile: G/GM/GMPASSOS/Mail-SendEasy-1.2.tar.gz
+      version: '0.01'
+  - 
+    Mail::SendEasy::Base64: 
+      description: Mail::SendEasy::Base64 - latest:1.0
+      distfile: G/GM/GMPASSOS/Mail-SendEasy-1.2.tar.gz
+      version: '1.0'
+  - 
+    Mail::SendEasy::IOScalar: 
+      description: Mail::SendEasy::IOScalar - latest:0.01
+      distfile: G/GM/GMPASSOS/Mail-SendEasy-1.2.tar.gz
+      version: '0.01'
+  - 
+    Mail::SendEasy::SMTP: 
+      description: Mail::SendEasy::SMTP - latest:0.01
+      distfile: G/GM/GMPASSOS/Mail-SendEasy-1.2.tar.gz
+      version: '0.01'
+  - 
+    Mail::Sender::Easy: 
+      description: Mail::Sender::Easy - latest:0.000005
+      distfile: D/DM/DMUEY/Mail-Sender-Easy-v0.0.5.tar.gz
+      version: '0.000005'
+  - 
+    Mail::Summary::Tools::ArchiveLink::Easy: 
+      description: Mail::Summary::Tools::ArchiveLink::Easy - latest:undef
+      distfile: N/NU/NUFFIN/Mail-Summary-Tools-0.06.tar.gz
+      version: undef
+  - 
+    Mecom::EasyYang: 
+      description: Mecom::EasyYang - latest:undef
+      distfile: H/HV/HVALVERDE/Mecom-1.15.tar.gz
+      version: undef
+  - 
+    MooseX::EasyAcc: 
+      description: MooseX::EasyAcc - latest:0.001
+      distfile: E/EA/EALLENIII/MooseX-EasyAcc-0.001.tar.gz
+      version: '0.001'
+  - 
+    MooseX::EasyAcc::Role::Attribute: 
+      description: MooseX::EasyAcc::Role::Attribute - latest:0.001
+      distfile: E/EA/EALLENIII/MooseX-EasyAcc-0.001.tar.gz
+      version: '0.001'
+  - 
+    MooseX::Graph::Easy::StateMachine: 
+      description: MooseX::Graph::Easy::StateMachine - latest:0.01
+      distfile: D/DA/DAVIDNICO/MooseX-Graph-Easy-StateMachine-0.01.tar.gz
+      version: '0.01'
+  - 
+    MooseX::Log::Log4perl::Easy: 
+      description: MooseX::Log::Log4perl::Easy - latest:0.47
+      distfile: L/LA/LAMMEL/MooseX-Log-Log4perl-0.47.tar.gz
+      version: '0.47'
+  - 
+    MySQL::Easy: 
+      description: MySQL::Easy - latest:2.1019
+      distfile: J/JE/JETTERO/MySQL-Easy-2.1019.tar.gz
+      version: '2.1019'
+  - 
+    MySQL::Easy::sth: 
+      description: MySQL::Easy::sth - latest:2.1019
+      distfile: J/JE/JETTERO/MySQL-Easy-2.1019.tar.gz
+      version: '2.1019'
+  - 
+    Net::Curl::Easy: 
+      description: Net::Curl::Easy - latest:0.49
+      distfile: S/SY/SYP/Net-Curl-0.49.tar.gz
+      version: '0.49'
+  - 
+    Net::Curl::Easy::Code: 
+      description: Net::Curl::Easy::Code - latest:0.49
+      distfile: S/SY/SYP/Net-Curl-0.49.tar.gz
+      version: '0.49'
+  - 
+    Net::EasyTCP: 
+      description: Net::EasyTCP - latest:0.26
+      distfile: M/MN/MNAGUIB/EasyTCP-0.26.tar.gz
+      version: '0.26'
+  - 
+    Net::Easypost: 
+      description: Net::Easypost - latest:0.21
+      distfile: M/MC/MCMILLHJ/Net-Easypost-0.21.tar.gz
+      version: '0.21'
+  - 
+    Net::Easypost::Address: 
+      description: Net::Easypost::Address - latest:0.21
+      distfile: M/MC/MCMILLHJ/Net-Easypost-0.21.tar.gz
+      version: '0.21'
+  - 
+    Net::Easypost::CustomsInfo: 
+      description: Net::Easypost::CustomsInfo - latest:0.21
+      distfile: M/MC/MCMILLHJ/Net-Easypost-0.21.tar.gz
+      version: '0.21'
+  - 
+    Net::Easypost::CustomsItem: 
+      description: Net::Easypost::CustomsItem - latest:0.21
+      distfile: M/MC/MCMILLHJ/Net-Easypost-0.21.tar.gz
+      version: '0.21'
+  - 
+    Net::Easypost::Label: 
+      description: Net::Easypost::Label - latest:0.21
+      distfile: M/MC/MCMILLHJ/Net-Easypost-0.21.tar.gz
+      version: '0.21'
+  - 
+    Net::Easypost::Parcel: 
+      description: Net::Easypost::Parcel - latest:0.21
+      distfile: M/MC/MCMILLHJ/Net-Easypost-0.21.tar.gz
+      version: '0.21'
+  - 
+    Net::Easypost::PostOnBuild: 
+      description: Net::Easypost::PostOnBuild - latest:0.21
+      distfile: M/MC/MCMILLHJ/Net-Easypost-0.21.tar.gz
+      version: '0.21'
+  - 
+    Net::Easypost::Rate: 
+      description: Net::Easypost::Rate - latest:0.21
+      distfile: M/MC/MCMILLHJ/Net-Easypost-0.21.tar.gz
+      version: '0.21'
+  - 
+    Net::Easypost::Request: 
+      description: Net::Easypost::Request - latest:0.21
+      distfile: M/MC/MCMILLHJ/Net-Easypost-0.21.tar.gz
+      version: '0.21'
+  - 
+    Net::Easypost::Resource: 
+      description: Net::Easypost::Resource - latest:0.21
+      distfile: M/MC/MCMILLHJ/Net-Easypost-0.21.tar.gz
+      version: '0.21'
+  - 
+    Net::Easypost::Shipment: 
+      description: Net::Easypost::Shipment - latest:0.21
+      distfile: M/MC/MCMILLHJ/Net-Easypost-0.21.tar.gz
+      version: '0.21'
+  - 
+    Net::ParseWhois::Domain::Registrar::Easyspace: 
+      description: Net::ParseWhois::Domain::Registrar::Easyspace - latest:0.2
+      distfile: R/RI/RIFFER/Net-ParseWhois-0.7.tar.gz
+      version: '0.2'
+  - 
+    Net::Pcap::Easy: 
+      description: Net::Pcap::Easy - latest:1.4210
+      distfile: J/JE/JETTERO/Net-Pcap-Easy-1.4210.tar.gz
+      version: '1.4210'
+  - 
+    PDF::EasyPDF: 
+      description: PDF::EasyPDF - latest:0.04
+      distfile: M/ME/MELONMAN/PDF-EasyPDF_0_04.tgz
+      version: '0.04'
+  - 
+    POE::Component::EasyDBI: 
+      description: POE::Component::EasyDBI - latest:1.28
+      distfile: G/GV/GVL/POE-Component-EasyDBI-1.28.tar.gz
+      version: '1.28'
+  - 
+    POE::Component::EasyDBI::SubProcess: 
+      description: POE::Component::EasyDBI::SubProcess - latest:1.23
+      distfile: X/XA/XANTUS/POE-Component-EasyDBI-1.23.tar.gz
+      version: '1.23'
+  - 
+    POE::Component::IRC::Plugin::FTP::EasyUpload: 
+      description: POE::Component::IRC::Plugin::FTP::EasyUpload - latest:0.002
+      distfile: Z/ZO/ZOFFIX/POE-Component-IRC-Plugin-FTP-EasyUpload-0.002.tar.gz
+      version: '0.002'
+  - 
+    POE::Component::MessageQueue::Storage::EasyDBI: 
+      description: POE::Component::MessageQueue::Storage::EasyDBI - latest:undef
+      distfile: D/DS/DSNOPEK/POE-Component-MessageQueue-0.1.6.tar.gz
+      version: undef
+  - 
+    Paws::Lambda::InvokeAsync: 
+      description: Paws::Lambda::InvokeAsync - latest:0.44
+      distfile: J/JL/JLMARTIN/Paws-0.44.tar.gz
+      version: '0.44'
+  - 
+    Paws::Lambda::InvokeAsyncResponse: 
+      description: Paws::Lambda::InvokeAsyncResponse - latest:0.44
+      distfile: J/JL/JLMARTIN/Paws-0.44.tar.gz
+      version: '0.44'
+  - 
+    Penguin::Easy: 
+      description: Penguin::Easy - latest:1.1
+      distfile: J/JD/JDUNCAN/Penguin-Easy-1.1.tar.gz
+      version: '1.1'
+  - 
+    Perinci::CmdLine::Easy: 
+      description: Perinci::CmdLine::Easy - latest:1.18
+      distfile: P/PE/PERLANCAR/Perinci-CmdLine-Easy-1.18.tar.gz
+      version: '1.18'
+  - 
+    Perinci::Easy: 
+      description: Perinci::Easy - latest:0.29
+      distfile: P/PE/PERLANCAR/Perinci-Easy-0.29.tar.gz
+      version: '0.29'
+  - 
+    Plack::App::GraphEasy: 
+      description: Plack::App::GraphEasy - latest:0.01
+      distfile: B/BA/BAYASHI/Plack-App-GraphEasy-0.01.tar.gz
+      version: '0.01'
+  - 
+    Plack::Middleware::EasyHooks: 
+      description: Plack::Middleware::EasyHooks - latest:0.02
+      distfile: P/PM/PMAKHOLM/Plack-Middleware-EasyHooks-0.02.tar.gz
+      version: '0.02'
+  - 
+    Pod::HtmlEasy: 
+      description: Pod::HtmlEasy - latest:v1.1.11
+      distfile: G/GL/GLEACH/Pod-HtmlEasy-v1.1.11a.tar.gz
+      version: v1.1.11
+  - 
+    Pod::HtmlEasy::Data: 
+      description: Pod::HtmlEasy::Data - latest:v1.1.11
+      distfile: G/GL/GLEACH/Pod-HtmlEasy-v1.1.11a.tar.gz
+      version: v1.1.11
+  - 
+    Pod::HtmlEasy::Parser: 
+      description: Pod::HtmlEasy::Parser - latest:v1.1.11
+      distfile: G/GL/GLEACH/Pod-HtmlEasy-v1.1.11a.tar.gz
+      version: v1.1.11
+  - 
+    Pod::HtmlEasy::TiehHandler: 
+      description: Pod::HtmlEasy::TiehHandler - latest:0.01
+      distfile: G/GM/GMPASSOS/Pod-HtmlEasy-0.07.tar.gz
+      version: '0.01'
+  - 
+    Pod::Weaver::PluginBundle::Author::KENTNL::Role::Easy: 
+      description: Pod::Weaver::PluginBundle::Author::KENTNL::Role::Easy - latest:0.001003
+      distfile: K/KE/KENTNL/Pod-Weaver-PluginBundle-Author-KENTNL-0.001003.tar.gz
+      version: '0.001003'
+  - 
+    Project::Easy: 
+      description: Project::Easy - latest:0.30
+      distfile: A/AP/APLA/Project-Easy-0.30.tar.gz
+      version: '0.30'
+  - 
+    Project::Easy::Config: 
+      description: Project::Easy::Config - latest:undef
+      distfile: A/AP/APLA/Project-Easy-0.30.tar.gz
+      version: undef
+  - 
+    Project::Easy::Config::File: 
+      description: Project::Easy::Config::File - latest:undef
+      distfile: A/AP/APLA/Project-Easy-0.30.tar.gz
+      version: undef
+  - 
+    Project::Easy::Config::Format::json: 
+      description: Project::Easy::Config::Format::json - latest:undef
+      distfile: A/AP/APLA/Project-Easy-0.30.tar.gz
+      version: undef
+  - 
+    Project::Easy::Config::Format::perl: 
+      description: Project::Easy::Config::Format::perl - latest:undef
+      distfile: A/AP/APLA/Project-Easy-0.30.tar.gz
+      version: undef
+  - 
+    Project::Easy::DB: 
+      description: Project::Easy::DB - latest:undef
+      distfile: A/AP/APLA/Project-Easy-0.30.tar.gz
+      version: undef
+  - 
+    Project::Easy::Daemon: 
+      description: Project::Easy::Daemon - latest:undef
+      distfile: A/AP/APLA/Project-Easy-0.30.tar.gz
+      version: undef
+  - 
+    Project::Easy::Distribution: 
+      description: Project::Easy::Distribution - latest:undef
+      distfile: A/AP/APLA/Project-Easy-0.30.tar.gz
+      version: undef
+  - 
+    Project::Easy::Helper: 
+      description: Project::Easy::Helper - latest:undef
+      distfile: A/AP/APLA/Project-Easy-0.30.tar.gz
+      version: undef
+  - 
+    RDF::AllegroGraph::Easy: 
+      description: RDF::AllegroGraph::Easy - latest:0.08
+      distfile: D/DR/DRRHO/RDF-AllegroGraph-Easy-0.08.tar.gz
+      version: '0.08'
+  - 
+    RT::Extension::EasyRelatedTickets: 
+      description: RT::Extension::EasyRelatedTickets - latest:0.1
+      distfile: S/SU/SUNNAVY/RT-Extension-EasyRelatedTickets-0.1.tar.gz
+      version: '0.1'
+  - 
+    SQL::Easy: 
+      description: SQL::Easy - latest:2.0
+      distfile: B/BE/BESSARABV/SQL-Easy-2.0.0.tar.gz
+      version: '2.0'
+  - 
+    TM::Easy: 
+      description: TM::Easy - latest:0.03
+      distfile: D/DR/DRRHO/TM-Easy-0.03.tar.gz
+      version: '0.03'
+  - 
+    TM::Easy::Association: 
+      description: TM::Easy::Association - latest:undef
+      distfile: D/DR/DRRHO/TM-Easy-0.03.tar.gz
+      version: undef
+  - 
+    TM::Easy::Map: 
+      description: TM::Easy::Map - latest:undef
+      distfile: D/DR/DRRHO/TM-Easy-0.03.tar.gz
+      version: undef
+  - 
+    TM::Easy::Topic: 
+      description: TM::Easy::Topic - latest:undef
+      distfile: D/DR/DRRHO/TM-Easy-0.03.tar.gz
+      version: undef
+  - 
+    Test::Easy: 
+      description: Test::Easy - latest:1.11
+      distfile: B/BE/BELDEN/Test-Easy-1.11.tar.gz
+      version: '1.11'
+  - 
+    Test::Easy::DataDriven: 
+      description: Test::Easy::DataDriven - latest:undef
+      distfile: B/BE/BELDEN/Test-Easy-1.11.tar.gz
+      version: undef
+  - 
+    Test::Easy::DeepEqual: 
+      description: Test::Easy::DeepEqual - latest:undef
+      distfile: B/BE/BELDEN/Test-Easy-1.11.tar.gz
+      version: undef
+  - 
+    Test::Easy::Time: 
+      description: Test::Easy::Time - latest:undef
+      distfile: B/BE/BELDEN/Test-Easy-1.11.tar.gz
+      version: undef
+  - 
+    Test::Easy::equivalence: 
+      description: Test::Easy::equivalence - latest:undef
+      distfile: B/BE/BELDEN/Test-Easy-1.11.tar.gz
+      version: undef
+  - 
+    Test::EasyMock: 
+      description: Test::EasyMock - latest:0.10
+      distfile: K/KI/KISEKI/Test-EasyMock-0.10.tar.gz
+      version: '0.10'
+  - 
+    Test::EasyMock::ArgumentsMatcher: 
+      description: Test::EasyMock::ArgumentsMatcher - latest:undef
+      distfile: K/KI/KISEKI/Test-EasyMock-0.10.tar.gz
+      version: undef
+  - 
+    Test::EasyMock::Class: 
+      description: Test::EasyMock::Class - latest:undef
+      distfile: K/KI/KISEKI/Test-EasyMock-0.10.tar.gz
+      version: undef
+  - 
+    Test::EasyMock::Expectation: 
+      description: Test::EasyMock::Expectation - latest:undef
+      distfile: K/KI/KISEKI/Test-EasyMock-0.10.tar.gz
+      version: undef
+  - 
+    Test::EasyMock::ExpectationSetters: 
+      description: Test::EasyMock::ExpectationSetters - latest:undef
+      distfile: K/KI/KISEKI/Test-EasyMock-0.10.tar.gz
+      version: undef
+  - 
+    Test::EasyMock::MockControl: 
+      description: Test::EasyMock::MockControl - latest:undef
+      distfile: K/KI/KISEKI/Test-EasyMock-0.10.tar.gz
+      version: undef
+  - 
+    Test::EasyMock::MockControl::Class: 
+      description: Test::EasyMock::MockControl::Class - latest:undef
+      distfile: K/KI/KISEKI/Test-EasyMock-0.10.tar.gz
+      version: undef
+  - 
+    Test::EasyMock::MockObject: 
+      description: Test::EasyMock::MockObject - latest:undef
+      distfile: K/KI/KISEKI/Test-EasyMock-0.10.tar.gz
+      version: undef
+  - 
+    Test::XML::Easy: 
+      description: Test::XML::Easy - latest:0.01
+      distfile: M/MA/MARKF/Test-XML-Easy-0.01.tar.gz
+      version: '0.01'
+  - 
+    Test::XML::Easy::Ignore: 
+      description: Test::XML::Easy::Ignore - latest:0.01
+      distfile: M/MA/MARKF/Test-XML-Easy-0.01.tar.gz
+      version: '0.01'
+  - 
+    Text::CSV::Easy: 
+      description: Text::CSV::Easy - latest:0.54
+      distfile: W/WE/WETERS/Text-CSV-Easy-0.54.tar.gz
+      version: '0.54'
+  - 
+    Text::CSV::Easy_PP: 
+      description: Text::CSV::Easy_PP - latest:undef
+      distfile: W/WE/WETERS/Text-CSV-Easy-0.54.tar.gz
+      version: undef
+  - 
+    Text::CSV::Easy_XS: 
+      description: Text::CSV::Easy_XS - latest:0.54
+      distfile: W/WE/WETERS/Text-CSV-Easy_XS-0.54.tar.gz
+      version: '0.54'
+  - 
+    Text::EasyTemplate: 
+      description: Text::EasyTemplate - latest:0.01
+      distfile: L/LC/LCHAVEZ/Text-EasyTemplate-0.01.tar.gz
+      version: '0.01'
+  - 
+    Tie::IxHash::Easy: 
+      description: Tie::IxHash::Easy - latest:0.01
+      distfile: P/PI/PINYAN/Tie-IxHash-Easy-0.01.tar.gz
+      version: '0.01'
+  - 
+    Tree::Easy: 
+      description: Tree::Easy - latest:0.01
+      distfile: J/JU/JUSTER/Tree-Easy-0.01.tar.gz
+      version: '0.01'
+  - 
+    UAV::Pilot::EasyEvent: 
+      description: UAV::Pilot::EasyEvent - latest:1.3
+      distfile: T/TM/TMURRAY/UAV-Pilot-1.3.tar.gz
+      version: '1.3'
+  - 
+    WWW::Curl::Easy: 
+      description: WWW::Curl::Easy - latest:4.17
+      distfile: S/SZ/SZBALINT/WWW-Curl-4.17.tar.gz
+      version: '4.17'
+  - 
+    WWW::DNSMadeEasy: 
+      description: WWW::DNSMadeEasy - latest:0.001
+      distfile: G/GE/GETTY/WWW-DNSMadeEasy-0.001.tar.gz
+      version: '0.001'
+  - 
+    WWW::DNSMadeEasy::Domain: 
+      description: WWW::DNSMadeEasy::Domain - latest:0.001
+      distfile: G/GE/GETTY/WWW-DNSMadeEasy-0.001.tar.gz
+      version: '0.001'
+  - 
+    WWW::DNSMadeEasy::Domain::Record: 
+      description: WWW::DNSMadeEasy::Domain::Record - latest:0.001
+      distfile: G/GE/GETTY/WWW-DNSMadeEasy-0.001.tar.gz
+      version: '0.001'
+  - 
+    WWW::phpEasyProject: 
+      description: WWW::phpEasyProject - latest:0.001
+      distfile: P/PE/PERLANCAR/WWW-phpEasyProject-0.001.tar.gz
+      version: '0.001'
+  - 
+    WebService::DNSMadeEasy: 
+      description: WebService::DNSMadeEasy - latest:0.02
+      distfile: K/KA/KABLAMO/WebService-DNSMadeEasy-0.02.tar.gz
+      version: '0.02'
+  - 
+    WebService::DNSMadeEasy::Client: 
+      description: WebService::DNSMadeEasy::Client - latest:undef
+      distfile: K/KA/KABLAMO/WebService-DNSMadeEasy-0.02.tar.gz
+      version: undef
+  - 
+    WebService::DNSMadeEasy::ManagedDomain: 
+      description: WebService::DNSMadeEasy::ManagedDomain - latest:undef
+      distfile: K/KA/KABLAMO/WebService-DNSMadeEasy-0.02.tar.gz
+      version: undef
+  - 
+    WebService::DNSMadeEasy::ManagedDomain::Record: 
+      description: WebService::DNSMadeEasy::ManagedDomain::Record - latest:undef
+      distfile: K/KA/KABLAMO/WebService-DNSMadeEasy-0.02.tar.gz
+      version: undef
+  - 
+    WebService::DNSMadeEasy::Monitor: 
+      description: WebService::DNSMadeEasy::Monitor - latest:undef
+      distfile: K/KA/KABLAMO/WebService-DNSMadeEasy-0.02.tar.gz
+      version: undef
+  - 
+    XML::Easy: 
+      description: XML::Easy - latest:0.011
+      distfile: Z/ZE/ZEFRAM/XML-Easy-0.011.tar.gz
+      version: '0.011'
+  - 
+    XML::Easy::Classify: 
+      description: XML::Easy::Classify - latest:0.011
+      distfile: Z/ZE/ZEFRAM/XML-Easy-0.011.tar.gz
+      version: '0.011'
+  - 
+    XML::Easy::Content: 
+      description: XML::Easy::Content - latest:0.011
+      distfile: Z/ZE/ZEFRAM/XML-Easy-0.011.tar.gz
+      version: '0.011'
+  - 
+    XML::Easy::Element: 
+      description: XML::Easy::Element - latest:0.011
+      distfile: Z/ZE/ZEFRAM/XML-Easy-0.011.tar.gz
+      version: '0.011'
+  - 
+    XML::Easy::NodeBasics: 
+      description: XML::Easy::NodeBasics - latest:0.011
+      distfile: Z/ZE/ZEFRAM/XML-Easy-0.011.tar.gz
+      version: '0.011'
+  - 
+    XML::Easy::ProceduralWriter: 
+      description: XML::Easy::ProceduralWriter - latest:1.00
+      distfile: M/MA/MARKF/XML-Easy-ProceduralWriter-1.00.tar.gz
+      version: '1.00'
+  - 
+    XML::Easy::SimpleSchemaUtil: 
+      description: XML::Easy::SimpleSchemaUtil - latest:0.003
+      distfile: Z/ZE/ZEFRAM/XML-Easy-SimpleSchemaUtil-0.003.tar.gz
+      version: '0.003'
+  - 
+    XML::Easy::Syntax: 
+      description: XML::Easy::Syntax - latest:0.011
+      distfile: Z/ZE/ZEFRAM/XML-Easy-0.011.tar.gz
+      version: '0.011'
+  - 
+    XML::Easy::Text: 
+      description: XML::Easy::Text - latest:0.011
+      distfile: Z/ZE/ZEFRAM/XML-Easy-0.011.tar.gz
+      version: '0.011'
+  - 
+    XML::Easy::Transform::RationalizeNamespacePrefixes: 
+      description: XML::Easy::Transform::RationalizeNamespacePrefixes - latest:1.22
+      distfile: M/MA/MARKF/XML-Easy-Transform-RationalizeNamespacePrefixes-1.22.tar.gz
+      version: '1.22'
+  - 
+    XML::EasyOBJ: 
+      description: XML::EasyOBJ - latest:1.12
+      distfile: R/RH/RHANSON/XML-EasyOBJ-1.12.tar.gz
+      version: '1.12'
+  - 
+    XML::EasyOBJ::Object: 
+      description: XML::EasyOBJ::Object - latest:1.12
+      distfile: R/RH/RHANSON/XML-EasyOBJ-1.12.tar.gz
+      version: '1.12'
+  - 
+    XML::EasySQL: 
+      description: XML::EasySQL - latest:1.2
+      distfile: C/CU/CURTISF/XML-EasySQL-1.2.tar.gz
+      version: '1.2'
+  - 
+    XML::EasySQL::XMLnode: 
+      description: XML::EasySQL::XMLnode - latest:1.2
+      distfile: C/CU/CURTISF/XML-EasySQL-1.2.tar.gz
+      version: '1.2'
+  - 
+    XML::EasySQL::XMLobj: 
+      description: XML::EasySQL::XMLobj - latest:1.2
+      distfile: C/CU/CURTISF/XML-EasySQL-1.2.tar.gz
+      version: '1.2'
+  - 
+    XML::EasySQL::XMLobj::Node: 
+      description: XML::EasySQL::XMLobj::Node - latest:1.2
+      distfile: C/CU/CURTISF/XML-EasySQL-1.2.tar.gz
+      version: '1.2'
+  - 
+    XML::Handler::EasyTree: 
+      description: XML::Handler::EasyTree - latest:0.02
+      distfile: E/EB/EBOHLMAN/XML-Handler-Trees-0.02.tar.gz
+      version: '0.02'
+  - 
+    XML::Handler::EasyTree::Generator: 
+      description: XML::Handler::EasyTree::Generator - latest:0.03
+      distfile: W/WR/WREN/XML-Handler-EasyTree-Generator-0.03.tar.gz
+      version: '0.03'
+  - 
+    XML::Handler::EasyTree::Searchable: 
+      description: XML::Handler::EasyTree::Searchable - latest:0.02
+      distfile: E/EB/EBOHLMAN/XML-Handler-Trees-0.02.tar.gz
+      version: '0.02'
+  - 
+    XML::LibXSLT::Easy: 
+      description: XML::LibXSLT::Easy - latest:0.03
+      distfile: N/NU/NUFFIN/XML-LibXSLT-Easy-0.03.tar.gz
+      version: '0.03'
+  - 
+    XML::LibXSLT::Easy::Batch: 
+      description: XML::LibXSLT::Easy::Batch - latest:undef
+      distfile: N/NU/NUFFIN/XML-LibXSLT-Easy-0.03.tar.gz
+      version: undef
+  - 
+    XML::LibXSLT::Easy::Batch::CLI: 
+      description: XML::LibXSLT::Easy::Batch::CLI - latest:undef
+      distfile: N/NU/NUFFIN/XML-LibXSLT-Easy-0.03.tar.gz
+      version: undef
+  - 
+    XML::LibXSLT::Easy::CLI: 
+      description: XML::LibXSLT::Easy::CLI - latest:undef
+      distfile: N/NU/NUFFIN/XML-LibXSLT-Easy-0.03.tar.gz
+      version: undef
+  - 
+    XML::Parser::EasyTree: 
+      description: XML::Parser::EasyTree - latest:0.01
+      distfile: E/EB/EBOHLMAN/XML-Parser-EasyTree-0.01.tar.gz
+      version: '0.01'
+  - 
+    XML::Parser::Style::EasyTree: 
+      description: XML::Parser::Style::EasyTree - latest:0.09
+      distfile: M/MO/MONS/XML-Parser-Style-EasyTree-0.09.tar.gz
+      version: '0.09'
+  - 
+    perleasyfail: 
+      description: perleasyfail - latest:0.000002
+      distfile: P/PE/PERLANCAR/perleasyfail-0.000002.tar.gz
+      version: '0.000002'
+total_rows: 259487

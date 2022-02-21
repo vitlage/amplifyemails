@@ -46,7 +46,6 @@
 		@yield('content')
 
 		<!-- Footer -->
-		@include('layouts.core._footer')
 	</main>
 
 	<!-- Notification -->

@@ -66,7 +66,54 @@ delete_outline
 
                     @include('helpers.form_control', ['type' => 'select', 'name' => 'timezone', 'value' => $admin->timezone, 'options' => Tool::getTimezoneSelectOptions(), 'include_blank' => trans('messages.choose'), 'rules' => $user->rules()])
 
-                    @include('helpers.form_control', ['type' => 'select', 'name' => 'language_id', 'label' => trans('messages.language'), 'value' => $admin->language_id, 'options' => Acelle\Model\Language::getSelectOptions(), 'include_blank' => trans('messages.choose'), 'rules' => $user->rules()])                    
+                    @include('helpers.form_control', ['type' => 'select', 'name' => 'language_id', 'label' => trans('messages.language'), 'value' => $admin->language_id, 'options' => Acelle\Model\Language::getSelectOptions(), 'include_blank' => trans('messages.choose'), 'rules' => $user->rules()])
+
+                    <h3 class="text-semibold text-primary mb-4 mt-5">{{ trans('messages.account.personality') }}</h3>
+
+                    <div class="row mb-4">
+                        <div class="col-md-12">
+                            <label class="mb-2">{{ trans('messages.account.menu_layout') }}</label>
+                            @include('layouts.core._menu_layout_switch', [
+                                'menu_layout' => $admin->menu_layout,
+                            ])
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label class="mb-3">{{ trans('messages.theme_mode') }}</label>
+                            @include('layouts.core._theme_mode_control', [
+                                'theme_mode' => $admin->theme_mode,
+                            ])
+                        </div>  
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 color-box">
+                            <label class="mb-3">{{ trans('messages.color_scheme') }}</label>
+                            <div class="text-left mb-4 profile-scheme-select mt-2">
+                                @include('layouts.core._theme_color_control', [
+                                    'theme_color' => Auth::user()->admin->getColorScheme(),
+                                ])  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 color-box">
+                            @include('helpers.form_control', [
+                                'type' => 'select',
+                                'class' => '',
+                                'name' => 'text_direction',
+                                'value' => $admin->text_direction,
+                                'help_class' => 'admin',
+                                'options' => [
+                                    ['text' => trans('messages.text_direction.ltr'), 'value' => 'ltr'],
+                                    ['text' => trans('messages.text_direction.rtl'), 'value' => 'rtl']
+                                ],
+                                'rules' => '',
+                            ])
+                        </div>
+                    </div>
 
                 </div>
             </div>

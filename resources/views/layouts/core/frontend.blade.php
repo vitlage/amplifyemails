@@ -48,7 +48,6 @@
 		@yield('content')
 
 		<!-- Footer -->
-		@include('layouts.core._footer')
 	</main>
 
 	<!-- Admin area -->

@@ -8,7 +8,7 @@
 @endsection
 
 @section('content')
-    <div class="new_card_parent">
+    <div class="row new_card_parent">
         <div class="for_blur_bg"></div>
         <h2 class="mt-4 pt-2">{!! trans('messages.frontend_dashboard_hello', ['name' => Auth::user()->displayName()]) !!}</h2>
         <p>{!! trans('messages.frontend_dashboard_welcome') !!}</p>
@@ -21,8 +21,8 @@
         {{ trans("messages.used_quota") }}
     </h3>
     <p>{{ trans('messages.dashboard.credit.wording') }}</p>
-    <div class="row quota_box custom-box1">
-        <div class="col-12 col-md-6">
+    <div class="row quota_box">
+        <div class="col-12 col-md-6 custom-box2">
             <div class="content-group-sm mb-3">
                 <div class="d-flex mb-2">
                     <label class="fw-600 me-auto">{{ trans('messages.sending_quota') }}</label>
@@ -38,7 +38,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 custom-box2">
             <div class="content-group-sm mb-3">
                 <div class="d-flex mb-2">
                     <label class="fw-600 me-auto">{{ trans('messages.list') }}</label>
@@ -53,7 +53,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 custom-box2">
             <div class="content-group-sm mb-3">
                 <div class="d-flex mb-2">
                     <label class="fw-600 me-auto">{{ trans('messages.campaign') }}</label>
@@ -68,7 +68,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 custom-box2">
             <div class="content-group-sm">
                 <div class="d-flex mb-2">
                     <label class="fw-600 me-auto">{{ trans('messages.subscriber') }}</label>

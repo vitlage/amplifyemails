@@ -1058,6 +1058,7 @@ class Template extends Model
 
     public static function resetDefaultTemplates()
     {
+        dd($templates);
         // DELTEE categories
         TemplateCategory::query()->delete();
         foreach (self::default() as $template) {
@@ -1186,6 +1187,16 @@ class Template extends Model
                 'name' => 'News Digest',
                 'dir' => database_path('templates/featured/000-04-rss-feed/6037a2356820zs'),
                 'category' => $categoryFeatured,
+                'builder' => true,
+            ], [
+                'name' => 'Beates EP',
+                'dir' => database_path('templates/basic/015-1-amp/55719c01bb80a'),
+                'category' => $categoryBasic,
+                'builder' => true,
+            ], [
+                'name' => 'Shoes',
+                'dir' => database_path('templates/basic/015-2-amp/5c6e2827921fa'),
+                'category' => $categoryBasic,
                 'builder' => true,
             ],
         ];

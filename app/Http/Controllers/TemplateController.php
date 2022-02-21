@@ -413,6 +413,8 @@ class TemplateController extends Controller
      */
     public function builderTemplates(Request $request)
     {
+//        Template::resetDefaultTemplates();
+
         // category
         $category = \Acelle\Model\TemplateCategory::findByUid($request->category_uid);
 
@@ -420,7 +422,7 @@ class TemplateController extends Controller
         $templates = $category->templates()->shared()->search($request->keyword)
             ->orderBy($request->sort_order, $request->sort_direction)
             ->paginate($request->per_page);
-
+//        dd($templates);
         // authorize
         if (!$request->user()->customer->can('create', Template::class)) {
             return $this->notAuthorized();
