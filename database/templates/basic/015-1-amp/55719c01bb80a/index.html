@@ -1,0 +1,349 @@
+<!doctype html>
+<html ⚡4email data-css-strict>
+<head>
+  <meta charset="utf-8" />
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+  <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+  <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
+  <style amp4email-boilerplate>body{visibility:hidden}</style>
+  <style amp-custom>
+    .p-detail{
+      padding: 120px 0;
+    }
+    .container{
+      width: 80%;
+      margin: auto;
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      flex-basis: 100%;
+    }
+    .col-half{
+      width: 50%;
+      flex-basis: 50%;
+      position: relative;
+    }
+    .d-flex{
+      display: flex;
+    }
+    .align-items-center{
+      align-items: center;
+    }
+    .justify-content-between{
+      justify-content: space-between;
+    }
+    .p-data span{
+      color: #8c8cf9;
+      font-size: .9rem;
+      color: #8c8cf9;
+      font-family: "Roboto",sans-serif;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: flex;
+      margin-bottom: 10px;
+    }
+    .p-data .p-name{
+      font-family: "Nexa Light",sans-serif;
+      font-size: 2.75rem;
+      color: #444f60;
+      letter-spacing: -2px;
+      margin: 0;
+      font-weight: 400;
+    }
+    .p-data .p-price{
+      font-family: "Nexa Bold",sans-serif;
+      font-size: 2rem;
+      color: #444f60;
+      margin: 0;
+      font-weight: 700;
+    }
+    .p-data .p-description,
+    .addToCart p{
+      font-family: "Roboto",sans-serif;
+      font-size: 1.15rem;
+      font-weight: 300;
+      color: #98a9c3;
+      line-height: 24px;
+    }
+    .addToCart p.beforeclick {
+      padding: 0;
+      opacity: 0;
+      visibility: hidden;
+    }
+    .addToCart p.afterclick {
+      opacity: 1;
+      visibility: visible;
+      text-decoration: underline;
+      color: #3ba552;
+    }
+    .p-colors ul{
+      list-style: none;
+      display: flex;
+      padding-left: 0;
+    }
+    .p-colors ul li {
+      border-radius: 100px;
+      position: relative;
+    }
+    .p-colors ul li input{
+      width: 35px;
+      height: 35px;
+      border-radius: 100px;
+      position: relative;
+      display: flex;
+      z-index: 9;
+      cursor: pointer;
+    }
+    .p-colors ul li input[type=radio]+label .indicator{
+      position: relative;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: transparent;
+      color: #fff;
+    }
+    .p-colors ul li input[type=radio]+label .indicator svg{
+      height: 10px;
+      width: 10px;
+    }
+    .p-colors ul li input[selected]+label .indicator{
+      display: flex;
+    }
+    .p-colors ul li:not(:last-child){
+      margin-right: 5px;
+    }
+    .p-colors ul li a {
+      width: 100%;
+      display: flex;
+      height: 100%;
+    }
+    .bg-red{
+      background-color: #c91524;
+    }
+    .bg-black{
+      background-color: #323232;
+    }
+    .bg-blue{
+      background-color: #314780;
+    }
+    .p-colors ul li a:focus {
+      border: 2px solid;
+      transition: unset;
+      position: absolute;
+      width: 130%;
+      height: 130%;
+      left: -5px;
+      top: -5px;
+      border-radius: 100px;
+    }
+
+    .styled-checkbox {
+      position: absolute;
+      opacity: 0;
+    }
+    .styled-checkbox + label {
+      position: absolute;
+      cursor: pointer;
+      padding: 0;
+      top: 0;
+      left: 0;
+      border-radius: 100px;
+      width: 35px;
+      height: 35px;
+    }
+    .styled-checkbox:disabled + label {
+      color: #b8b8b8;
+    }
+    #carouselWithPreviewSelector amp-img {
+      display: block;
+      width: 100%;
+      object-fit: contain;
+      filter: grayscale(1);
+      opacity: .6;
+    }
+    amp-selector#carouselWithPreviewSelector [option][selected]{
+      opacity: 1;
+      filter: grayscale(0);
+    }
+    amp-selector#carouselWithPreviewSelector [option] {
+      cursor: pointer;
+      display: flex;
+      background: #fff;
+      outline: 1px solid #dbdbdb;
+      border-radius: .5rem;
+      height: 70px;
+      width: 70px;
+      margin-bottom: .75rem;
+    }
+    .amp-carousel-button{
+      display: none;
+    }
+    amp-selector#carouselWithPreviewSelector {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 9;
+    }
+    amp-selector#carouselWithPreviewSelector ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .addToCart{
+      margin-top: 30px;
+    }
+    .addToCart button,
+    .addToCart .viewCart{
+      display: inline-flex;
+      background-color: #8c8cf9;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-family: "Roboto",sans-serif;
+      text-align: center;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 30px;
+      border: 0;
+      cursor: pointer;
+      z-index: 1;
+      position: relative;
+    }
+    .addToCart button:hover,
+    .addToCart .viewCart:hover{
+      background-color: #a4a4fa;
+    }
+    .show{
+      opacity: 1;
+      visibility: visible;
+    }
+    .hide{
+      opacity: 0;
+      visibility: hidden;
+    }
+    .addToCart button + .viewCart {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 0;
+    }
+    .buttons{
+      position: relative;
+    }
+    @media(max-width: 1024px){
+      .col-half {
+        width: 100%;
+        flex-basis: 100%;
+      }
+      amp-selector#carouselWithPreviewSelector [option] {
+        height: 100px;
+        width: 100px;
+      }
+    }
+
+  </style>
+
+
+</head>
+<body>
+
+<div class="p-detail">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-half">
+        <amp-selector id="carouselWithPreviewSelector" class="carousel-preview" on="select:carouselWithPreview.goToSlide(index=event.targetOption)" layout="container">
+          <ul>
+            <li>
+              <amp-img option="0" layout="responsive" src="https://softeey.com/clients/vitlage/assets/images/headphones-red.webp" width="70" height="70" alt="headphone red" selected></amp-img>
+            </li>
+            <li>
+              <amp-img option="1" layout="responsive" src="https://softeey.com/clients/vitlage/assets/images/headphones-black.webp" width="70" height="70" alt="headphone black"></amp-img>
+            </li>
+            <li>
+              <amp-img option="2" layout="responsive" src="https://softeey.com/clients/vitlage/assets/images/headphones-blue.webp" width="70" height="70" alt="headphone blue"></amp-img>
+            </li>
+          </ul>
+        </amp-selector>
+        <amp-carousel id="carouselWithPreview"
+                      width="690"
+                      height="515"
+                      layout="responsive"
+                      type="slides"
+                      class="fadeIn"
+                      on="slideChange:carouselWithPreviewSelector.toggle(index=event.index, value=true)">
+          <amp-img layout="fill" src="https://softeey.com/clients/vitlage/assets/images/headphones-red.webp"  alt="headphone red"></amp-img>
+          <amp-img layout="fill" src="https://softeey.com/clients/vitlage/assets/images/headphones-black.webp"  alt="headphone black"></amp-img>
+          <amp-img layout="fill" src="https://softeey.com/clients/vitlage/assets/images/headphones-blue.webp"  alt="headphone blue"></amp-img>
+        </amp-carousel>
+      </div>
+      <div class="col-half">
+        <div class="p-data">
+          <span>HEADPHONES</span>
+          <div class="d-flex align-items-center justify-content-between">
+            <h2 class="p-name">Beats EP</h2>
+            <p class="p-price">$148.49</p>
+          </div>
+          <p class="p-description">The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance</p>
+          <div class="p-colors">
+            <amp-selector
+                    id="productColors"
+                    name="color"
+                    layout="container"
+                    on="select:carouselWithPreview.goToSlide(index=event.targetOption)">
+              <ul>
+                <li>
+                  <input option="0" selected class="styled-checkbox" type="radio" name="p-colors">
+                  <label class="bg-red">
+                        <span class="indicator">
+                          <amp-img layout="fixed"  width="15" height="15" src="https://softeey.com/clients/vitlage/assets/images/check-mark.svg"  alt="check mark"></amp-img>
+                        </span>
+                  </label>
+                </li>
+                <li>
+                  <input option="1" class="styled-checkbox" type="radio" name="p-colors">
+                  <label class="bg-black">
+                        <span class="indicator">
+                          <amp-img layout="fixed" width="15" height="15"  src="https://softeey.com/clients/vitlage/assets/images/check-mark.svg"  alt="check mark"></amp-img>
+                        </span>
+                  </label>
+                </li>
+                <li>
+                  <input option="2" class="styled-checkbox" type="radio" name="p-colors">
+                  <label class="bg-blue">
+                        <span class="indicator">
+                          <amp-img layout="fixed" width="15" height="15"  src="https://softeey.com/clients/vitlage/assets/images/check-mark.svg"  alt="check mark"></amp-img>
+                        </span>
+                  </label>
+                </li>
+              </ul>
+            </amp-selector>
+          </div>
+          <div class="addToCart">
+            <p class="beforeclick" [class]="class.changeClass == 'newClass' ? 'afterclick' : 'beforeclick' ">Product has been added to cart</p>
+            <div class="buttons">
+              <button class="show" [class]="class.changeClass == 'newClass' ? 'hide' : 'show' " on="tap:AMP.setState({class:{changeClass: 'newClass'}})">Add to Cart
+              </button>
+              <a href="https://google.com" class="viewCart">View Cart</a>
+            </div>
+            <amp-state id="class">
+              <script type="application/json">
+                {
+                  "changeClass": ""
+                }
+              </script>
+            </amp-state>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
