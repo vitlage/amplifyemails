@@ -3238,6 +3238,13 @@
   'automation.intro.woo-abandoned-cart' => 'Send your buyer a reminder if they left
       something in cart',
   'automation.woo_items' => 'Product List',
+  'automation.carousel' => 'Carousel',
+  'automation.input' => 'Input',
+  'automation.input.round' => 'Input Round',
+  'automation.button.rounded' => 'Button Round',
+  'automation.radio' => 'Radio Button',
+  'automation.checkbox' => 'Checkbox',
+  'automation.switch' => 'Switch',
   'automation.item_title' => '{PRODUCT_NAME}',
   'automation.item_description' => '{PRODUCT_DESCRIPTION}',
   'automation.view_more' => 'View more',
