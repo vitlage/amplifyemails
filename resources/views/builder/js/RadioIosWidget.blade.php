@@ -7,13 +7,13 @@
     init() {
       this.setButtonHtml(`
                 <div class="_1content widget-text">
-                  <div class="panel__body woo-panel__body" title="{{ trans('messages.automation.radio') }}">
+                  <div class="panel__body woo-panel__body" title="{{ trans('messages.automation.radio.switch') }}">
                     <div class="image-drag">
                       <div ng-bind-html="::getModuleIcon(module)" class="ng-binding product-list-widget">
                         <img builder-element src="{{ url('images/radio-ios.png') }}" />
                       </div>
                     </div>
-                    <div class="body__title">{{ trans('messages.automation.radio') }}</div>
+                    <div class="body__title">{{ trans('messages.automation.radio.switch') }}</div>
                   </div>
                 </div>
             `);

@@ -3243,6 +3243,7 @@
   'automation.input.round' => 'Input Round',
   'automation.button.rounded' => 'Button Round',
   'automation.radio' => 'Radio Button',
+  'automation.radio.switch' => 'Radio Switch',
   'automation.checkbox' => 'Checkbox',
   'automation.switch' => 'Switch',
   'automation.item_title' => '{PRODUCT_NAME}',

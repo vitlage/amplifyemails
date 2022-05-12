@@ -14,3 +14,4 @@
 @include('builder.js.CustomCheckboxWidget')
 @include('builder.js.CustomRadioWidget')
 @include('builder.js.RadioIosWidget')
+@include('builder.js.RadioSwitcherWidget')

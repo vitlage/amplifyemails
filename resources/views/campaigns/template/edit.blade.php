@@ -118,8 +118,10 @@
                     this.addContentWidget(new CheckboxIosWidget(), 0, 'Checkbox');
                     this.addContentWidget(new CustomRadioWidget(), 0, 'Radio button');
                     this.addContentWidget(new RadioIosWidget(), 0, 'Radio button');
+                    this.addContentWidget(new RadioSwitcherWidget(), 0, 'Radio button');
                     this.addContentWidget(new RoundedInputWidget(), 0, 'Input');
                     this.addContentWidget(new CustomInputWidget(), 0, 'Input');
+                    this.addContentWidget(new FormWidget(), 0, 'Form');
 
                     // Rss widget
                     // this.addCustomCss('{{ url('/core/css/builder_rss.css') }}');
