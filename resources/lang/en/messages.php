@@ -3246,6 +3246,7 @@
   'automation.radio.switch' => 'Radio Switch',
   'automation.checkbox' => 'Checkbox',
   'automation.switch' => 'Switch',
+  'automation.form' => 'Form base',
   'automation.item_title' => '{PRODUCT_NAME}',
   'automation.item_description' => '{PRODUCT_DESCRIPTION}',
   'automation.view_more' => 'View more',

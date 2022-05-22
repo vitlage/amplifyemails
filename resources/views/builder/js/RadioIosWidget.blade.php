@@ -20,21 +20,11 @@
 
       this.setContentHtml(`
                 <div builder-element="BlockElement">
-                  <fieldset builder-element="RadioFieldElement" class="inputs-group">
+                  <fieldset builder-element="RadioIosFieldElement" class="inputs-group">
                     <label>
-                      <input class="cb cb1" type="checkbox" name="social" onclick="cbChange(this)" checked/>
+                      <input class="cb cb1 field-name" type="checkbox" name="social" checked/>
                       <i></i>
-                      <span>Social life</span>
-                    </label>
-                    <label>
-                      <input class="cb cb2" type="checkbox" name="work" onclick="cbChange(this)"/>
-                      <i></i>
-                      <span>Work</span>
-                    </label>
-                    <label>
-                      <input class="cb cb3" type="checkbox" name="sleep" onclick="cbChange(this)" checked/>
-                      <i></i>
-                      <span>Sleep</span>
+                      <span class="field-label">Social life</span>
                     </label>
                   </fieldset>
                 </div>

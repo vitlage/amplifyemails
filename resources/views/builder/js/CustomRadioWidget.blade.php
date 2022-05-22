@@ -21,20 +21,12 @@
       this.setContentHtml(`
                 <div builder-element="BlockElement">
                   <div style="padding-top:16px;padding-bottom:16px" class="container">
-                    <div builder-element="RadioFieldElement" class="form-group">
+                    <div builder-element="CustomRadioFieldElement" class="form-group">
                       <label for="exampleFormControlSelect1" class="font-weight-bold">Example select</label>
                       <div class="inputs-group">
                         <span class="mr-4 radio-option">
                           <input type="radio" name="GENDER" value="male" autocomplete="off">
                           <span class="text">Male</span>
-                        </span>
-                        <span class="mr-4 radio-option">
-                          <input type="radio" name="GENDER" value="female" autocomplete="off">
-                          <span class="text">Female</span>
-                        </span>
-                        <span class="mr-4 radio-option">
-                          <input type="radio" name="GENDER" value="other" autocomplete="off">
-                          <span class="text">Other</span>
                         </span>
                       </div>
                     </div>
