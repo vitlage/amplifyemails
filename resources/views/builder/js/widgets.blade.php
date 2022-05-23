@@ -21,3 +21,4 @@
 @include('builder.js.RadioIosFieldElement')
 @include('builder.js.CustomFormWidget')
 @include('builder.js.NpsScoreWidget')
+@include('builder.js.CustomTextAreaWidget')

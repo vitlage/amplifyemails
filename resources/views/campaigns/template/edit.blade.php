@@ -121,6 +121,7 @@
                     this.addContentWidget(new RadioSwitcherWidget(), 0, 'Radio button');
                     this.addContentWidget(new RoundedInputWidget(), 0, 'Input');
                     this.addContentWidget(new CustomInputWidget(), 0, 'Input');
+                    this.addContentWidget(new CustomTextAreaWidget(), 0, 'Input');
                     this.addContentWidget(new CustomFormWidget(), 0, 'Form');
                     this.addContentWidget(new NpsScoreWidget(), 0, 'Score widget');
 
