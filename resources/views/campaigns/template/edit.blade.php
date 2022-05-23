@@ -122,6 +122,7 @@
                     this.addContentWidget(new RoundedInputWidget(), 0, 'Input');
                     this.addContentWidget(new CustomInputWidget(), 0, 'Input');
                     this.addContentWidget(new CustomFormWidget(), 0, 'Form');
+                    this.addContentWidget(new NpsScoreWidget(), 0, 'Score widget');
 
                     // Rss widget
                     // this.addCustomCss('{{ url('/core/css/builder_rss.css') }}');

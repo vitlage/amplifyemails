@@ -3247,6 +3247,7 @@
   'automation.checkbox' => 'Checkbox',
   'automation.switch' => 'Switch',
   'automation.form' => 'Form base',
+  'automation.nps.score' => 'NPS score',
   'automation.item_title' => '{PRODUCT_NAME}',
   'automation.item_description' => '{PRODUCT_DESCRIPTION}',
   'automation.view_more' => 'View more',
