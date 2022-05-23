@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-}
-
 .rss-placeholder {
     width: 100%
 }
@@ -180,6 +176,7 @@ input[type=checkbox] {
     cursor: pointer;
     transition: background 175ms cubic-bezier(0.1, 0.1, 0.25, 1);
 }
+
 input[type=checkbox]::before {
     position: absolute;
     content: "";
@@ -194,14 +191,17 @@ input[type=checkbox]::before {
     transform: rotate(45deg);
     opacity: 0;
 }
+
 input[type=checkbox]:checked {
     color: #fff;
     border-color: #06842c;
     background: #06842c;
 }
+
 input[type=checkbox]:checked::before {
     opacity: 1;
 }
+
 input[type=checkbox]:checked ~ label::before {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -216,6 +216,8 @@ label {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    font-family: "Montserrat", sans-serif;
+    margin: 1em;
 }
 
 .switch_box{
@@ -282,19 +284,14 @@ input[type="checkbox"].switch:checked:after{
     box-sizing: border-box;
 }
 
-label {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
-    cursor: pointer;
-    display: block;
-    margin: 1em;
-}
 label > input {
     display: none;
 }
+
 label span {
     color: #6a759b;
 }
+
 label i {
     display: inline-block;
     width: 64px;
@@ -305,6 +302,7 @@ label i {
     position: relative;
     background: #deeff7;
 }
+
 label i:after {
     content: " ";
     display: block;
@@ -318,12 +316,15 @@ label i:after {
     box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.4);
     transition: 0.15s;
 }
+
 label > input:checked + i {
     background: #1094fb;
 }
+
 label > input:checked + i + span {
     color: #29316b;
 }
+
 label > input:checked + i:after {
     transform: translateX(25px);
 }
@@ -334,6 +335,7 @@ label > input:checked + i:after {
     margin: 10px 0;
     position: relative;
 }
+
 .inputGroup label {
     padding: 12px 30px;
     width: 100%;
@@ -346,6 +348,7 @@ label > input:checked + i:after {
     transition: color 200ms ease-in;
     overflow: hidden;
 }
+
 .inputGroup label:before {
     width: 10px;
     height: 10px;
@@ -360,6 +363,7 @@ label > input:checked + i:after {
     opacity: 0;
     z-index: -1;
 }
+
 .inputGroup label:after {
     width: 32px;
     height: 32px;
@@ -378,17 +382,21 @@ label > input:checked + i:after {
     cursor: pointer;
     transition: all 200ms ease-in;
 }
+
 .inputGroup input:checked ~ label {
     color: #fff;
 }
+
 .inputGroup input:checked ~ label:before {
     transform: translate(-50%, -50%) scale3d(56, 56, 1);
     opacity: 1;
 }
+
 .inputGroup input:checked ~ label:after {
     background-color: #54E0C7;
     border-color: #54E0C7;
 }
+
 .inputGroup input {
     width: 32px;
     height: 32px;
@@ -425,5 +433,4 @@ label > input:checked + i:after {
     justify-content: center;
     cursor: pointer;
     color: #33C1FF;
-
 }
