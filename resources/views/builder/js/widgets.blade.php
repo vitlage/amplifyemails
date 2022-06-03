@@ -20,5 +20,6 @@
 @include('builder.js.RadioSwitcherWidget')
 @include('builder.js.RadioIosFieldElement')
 @include('builder.js.CustomFormWidget')
+@include('builder.js.CustomFormElement')
 @include('builder.js.NpsScoreWidget')
 @include('builder.js.CustomTextAreaWidget')

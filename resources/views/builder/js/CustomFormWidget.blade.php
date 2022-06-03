@@ -19,8 +19,8 @@
       `)
 
       this.setContentHtml(`
-                <form builder-element="FormElement" builder-wrapper role="main">
-                  <div class="col-md-6">
+                <form builder-element="CustomFormElement" builder-wrapper role="main">
+                  <div class="col">
                     <div>
                       <div builder-element="BlockElement">
                         <div style="padding-top:16px;padding-bottom:16px" class="container">
