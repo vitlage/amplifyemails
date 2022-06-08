@@ -16,7 +16,7 @@
     getStyle () {
       var id = this.getHtmlId();
       var styles = {
-        InputFieldWidget: 'height: 44px;font-size: .875rem;border: 1px solid rgba(150,158,172,.23921568627450981);border-radius: 8px;padding: 0 50px 0 20px;color: #434a55;',
+        InputFieldWidget: 'width: 292px;height: 44px;font-size: .875rem;border: 1px solid rgba(150,158,172,.23921568627450981);border-radius: 8px;padding: 0 50px 0 20px;color: #434a55;',
         RoundedInputFieldWidget: 'width: 292px;height: 40px;border: 1px solid rgba(66, 83, 112, 0.3);box-sizing: border-box;border-radius: 100px;text-indent: 10px;',
       };
       return styles[id];

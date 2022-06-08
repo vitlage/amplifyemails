@@ -53,10 +53,23 @@
           left: e.obj.css("padding-left")
         }, (function (t) {
           e.obj.css("padding", t.padding), e.obj.css("padding-top", t.top), e.obj.css("padding-bottom", t.bottom), e.obj.css("padding-right", t.right), e.obj.css("padding-left", t.left), e.select()
-        })), new AlignmentControl("alignment", {align: e.obj.css("text-align")}, {
+        })), new AlignmentControl("alignment", {align: this.getAlignForButton(e.obj.children().css("justify-content"))}, {
           setAlign: function (t) {
-            console.log(t), e.obj.css("text-align", t)
+            var aliases = {
+              'right': 'flex-end',
+              'left': 'flex-start',
+            }
+            console.log(t), e.obj.children().css("justify-content", aliases[t] || t)
           }})]
+      }
+
+      getAlignForButton(value) {
+        var aliases = {
+          'flex-end': 'right',
+          'flex-start': 'left',
+        }
+
+        return aliases[value] || value
       }
     }
 </script>

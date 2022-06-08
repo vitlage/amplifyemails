@@ -20,7 +20,7 @@
 
       this.setContentHtml(`
                 <form builder-element="CustomFormElement" builder-wrapper role="main">
-                  <div class="col">
+                  <div style="display: flex;align-content: center;justify-content: flex-start">
                     <div>
                       <div builder-element="BlockElement">
                         <div style="padding-top:16px;padding-bottom:16px" class="container">
