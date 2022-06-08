@@ -13,14 +13,16 @@
         <h2 class="mt-4 pt-2">{!! trans('messages.frontend_dashboard_hello', ['name' => Auth::user()->displayName()]) !!}</h2>
         <p>{!! trans('messages.frontend_dashboard_welcome') !!}</p>
     </div>
+    <div class="row">
+        <h3 class="mt-5 mb-3 pl-0">
+            <span class="material-icons-outlined me-2">
+                donut_large
+            </span>
+            {{ trans("messages.used_quota") }}
+        </h3>
+    <p class="pl-0">{{ trans('messages.dashboard.credit.wording') }}</p>
+    </div>
 
-    <h3 class="mt-5 mb-3">
-        <span class="material-icons-outlined me-2">
-            donut_large
-        </span>
-        {{ trans("messages.used_quota") }}
-    </h3>
-    <p>{{ trans('messages.dashboard.credit.wording') }}</p>
     <div class="row quota_box">
         <div class="col-12 col-md-6 custom-box2">
             <div class="content-group-sm mb-3">
@@ -38,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 custom-box2">
+        <div class="col-12 col-md-6 custom-box2 custom-box7">
             <div class="content-group-sm mb-3">
                 <div class="d-flex mb-2">
                     <label class="fw-600 me-auto">{{ trans('messages.list') }}</label>
@@ -68,7 +70,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 custom-box2">
+        <div class="col-12 col-md-6 custom-box2 custom-box7">
             <div class="content-group-sm">
                 <div class="d-flex mb-2">
                     <label class="fw-600 me-auto">{{ trans('messages.subscriber') }}</label>
@@ -91,7 +93,7 @@
 
 
     @if (isSiteDemo())
-    <h3 class="mt-5 mb-3"><span class="material-icons-outlined me-2">
+    <h3 class="mt-5 mb-3 pl-0"><span class="material-icons-outlined me-2">
         star_half
         </span> {{ trans('messages.top_5') }}
     </h3>
@@ -273,11 +275,11 @@
         </div>
     </div>
     @endif
-
-    <h3 class="mt-5 mb-3"><span class="material-icons-outlined me-2">
+    <div class="row">
+    <h3 class="mt-5 mb-3 pl-0"><span class="material-icons-outlined me-2">
         group_work
     </span> {{ trans('messages.activity_log') }}</h3>
-
+</div>
     @if (Auth::user()->customer->logs()->count() == 0)
         <div class="empty-list custom-box1">
             <span class="material-icons-outlined">
@@ -288,9 +290,9 @@
             </span>
         </div>
     @else
-        <div class="action-log-box custom-box1">
+        <div class=row "action-log-box custom-box1">
             <!-- Timeline -->
-            <div class="">
+            <div class="row">
                 <div class="mt-4">
                     @foreach (Auth::user()->customer->logs()->take(20)->get() as $log)
                         <!-- Sales stats -->

@@ -1,12 +1,15 @@
-<h3 class="mt-5 mb-3">
+<div class="row">
+
+<h3 class="mt-5 mb-3 pl-0">
     <span class="material-icons-outlined me-2">
         history_toggle_off
         </span>
     {{ trans('messages.recently_sent_campaigns') }}
 </h3>
+</div>
 
 @if (Auth::user()->customer->sentCampaigns()->count() == 0)
-    <div class="empty-list custom-box1">
+    <div class="row empty-list custom-box1">
         <span class="material-icons-outlined">
             auto_awesome
         </span>
@@ -15,7 +18,7 @@
         </span>
     </div>
 @else
-    <div class="row">
+    <div class="">
         <div class="col-md-6 custom-box">
             @include('helpers.form_control', [
                 'type' => 'select',

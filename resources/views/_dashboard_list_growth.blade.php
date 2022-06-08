@@ -1,4 +1,6 @@
-<h3 class=" mt-5"><i class="icon-address-book2"></i> {{ trans('messages.list_growth') }}</h3>
+<div class="row">
+    <h3 class=" mt-5 pl-0"><i class="icon-address-book2"></i> {{ trans('messages.list_growth') }}</h3>
+</div>
 
 @if (Auth::user()->customer->lists()->count() == 0)
     <div class="empty-list custom-box">
@@ -8,8 +10,8 @@
         </span>
     </div>
 @else
-    <div class="row ">
-        <div class="col-md-6 custom-box">
+    <div class="">
+        <div class="custom-box mb-2">
             @include('helpers.form_control', [
                 'type' => 'select',
                 'class' => 'dashboard-list-select',

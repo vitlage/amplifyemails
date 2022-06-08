@@ -143,7 +143,7 @@ assignment_turned_in
             </ul>
         </div>
     </div>
-    <div class="custom-box mt-5">
+    <div class="row custom-box mt-5">
         <h4 class="text-semibold mt-5">
                     <span class="material-icons-outlined me-2">
             restore
@@ -198,7 +198,7 @@ assignment_turned_in
     </div>
     
 
-    <div class="sub-section mb-4 mt-5 custom-box" style="margin-top: 60px">
+    <div class="row sub-section mb-4 mt-5 custom-box" style="margin-top: 60px">
         <h4 class="text-semibold mt-5"><span class="material-icons-outlined me-2">
             running_with_errors
             </span> {{ trans('messages.resources_statistics') }}</h4>
