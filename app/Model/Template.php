@@ -1058,7 +1058,6 @@ class Template extends Model
 
     public static function resetDefaultTemplates()
     {
-        dd($templates);
         // DELTEE categories
         TemplateCategory::query()->delete();
         foreach (self::default() as $template) {

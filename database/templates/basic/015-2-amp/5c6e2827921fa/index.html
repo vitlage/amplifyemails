@@ -1,0 +1,395 @@
+<!doctype html>
+<html ⚡4email data-css-strict>
+<head>
+  <meta charset="utf-8" />
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+  <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+  <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
+  <style amp4email-boilerplate>body{visibility:hidden}</style>
+  <style amp-custom>
+    .p-detail{
+      padding: 120px 0;
+    }
+    .container{
+      width: 80%;
+      margin: auto;
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      flex-basis: 100%;
+    }
+    .col-half{
+      width: 50%;
+      flex-basis: 50%;
+      position: relative;
+    }
+    .col-70{
+      width: 70%;
+      flex-basis: 70%;
+      position: relative;
+    }
+    .col-30{
+      width: 30%;
+      flex-basis: 30%;
+      position: relative;
+    }
+    .d-flex{
+      display: flex;
+    }
+    .align-items-center{
+      align-items: center;
+    }
+    .justify-content-between{
+      justify-content: space-between;
+    }
+    .p-data span{
+      color: #8c8cf9;
+      font-size: .9rem;
+      font-family: Gillsans,sans-serif;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: flex;
+      margin-bottom: 10px;
+      color: #242424;
+      justify-content: center;
+    }
+    .p-data .p-name{
+      font-family: Gillsans,sans-serif;
+      font-size: 1.57rem;
+      margin: 0;
+      line-height: 32px;
+      letter-spacing: .16em;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 400;
+      width: 100%;
+    }
+    .p-data .p-price{
+      font-family: "Nexa Bold",sans-serif;
+      font-size: 1.57rem;
+      margin-top: 5px;
+      font-weight: 400;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .p-data .p-description,
+    .addToCart p{
+      font-family: Gillsans,sans-serif;
+      font-size: 0.9rem;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: center;
+      width: 100%;
+      margin: auto;
+    }
+    .addToCart p.beforeclick {
+      padding: 0;
+      opacity: 0;
+      visibility: hidden;
+    }
+    .addToCart p.afterclick {
+      opacity: 1;
+      visibility: visible;
+      text-decoration: underline;
+      color: #3ba552;
+      margin-bottom: 10px;
+    }
+    .p-colors ul{
+      list-style: none;
+      display: flex;
+      padding-left: 0;
+    }
+    .p-colors ul li {
+      border-radius: 100px;
+      position: relative;
+    }
+    .p-colors ul li input{
+      width: 35px;
+      height: 35px;
+      border-radius: 100px;
+      position: relative;
+      display: flex;
+      z-index: 9;
+      cursor: pointer;
+    }
+    .p-colors ul li input[type=radio]+label .indicator{
+      position: relative;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: transparent;
+      color: #fff;
+    }
+    .p-colors ul li input[type=radio]+label .indicator svg{
+      height: 10px;
+      width: 10px;
+    }
+    .p-colors ul li input[selected]+label .indicator{
+      display: flex;
+    }
+    .p-colors ul li:not(:last-child){
+      margin-right: 5px;
+    }
+    .p-colors ul li a {
+      width: 100%;
+      display: flex;
+      height: 100%;
+    }
+    .bg-red{
+      background-color: #c91524;
+    }
+    .bg-black{
+      background-color: #323232;
+    }
+    .bg-blue{
+      background-color: #314780;
+    }
+    .p-colors ul li a:focus {
+      border: 2px solid;
+      transition: unset;
+      position: absolute;
+      width: 130%;
+      height: 130%;
+      left: -5px;
+      top: -5px;
+      border-radius: 100px;
+    }
+
+    .styled-checkbox {
+      position: absolute;
+      opacity: 0;
+    }
+    .styled-checkbox + label {
+      position: absolute;
+      cursor: pointer;
+      padding: 0;
+      top: 0;
+      left: 0;
+      border-radius: 100px;
+      width: 35px;
+      height: 35px;
+    }
+    .styled-checkbox:disabled + label {
+      color: #b8b8b8;
+    }
+    #carouselWithPreviewSelector amp-img {
+      display: block;
+      width: 100%;
+      object-fit: contain;
+      filter: grayscale(1);
+      opacity: .6;
+    }
+    amp-selector#carouselWithPreviewSelector [option][selected]{
+      background: #000;
+    }
+    amp-selector#carouselWithPreviewSelector [option] {
+      cursor: pointer;
+      display: flex;
+      background: #b1b1b1;
+      outline: 1px solid #dbdbdb;
+      border-radius: .5rem;
+      height: 8px;
+      width: 8px;
+      margin-bottom: .75rem;
+    }
+    .amp-carousel-button{
+      display: none;
+    }
+    amp-selector#carouselWithPreviewSelector {
+      position: absolute;
+      top: 0;
+      left: 10%;
+      z-index: 9;
+      height: 100%;
+      display: flex;
+    }
+    amp-selector#carouselWithPreviewSelector ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .addToCart{
+      margin-bottom: 30px;
+    }
+    .p-data > div {
+      flex-wrap: wrap;
+    }
+    .addToCart button,
+    .addToCart .viewCart{
+      display: inline-flex;
+      background-color: #242424;
+      border-radius: 0;
+      font-size: 1rem;
+      font-family: Gillsans,sans-serif;
+      text-align: center;
+      color: #fff;
+      text-decoration: none;
+      padding: 18px 15px;
+      border: 0;
+      cursor: pointer;
+      z-index: 1;
+      position: relative;
+      width: 50%;
+      justify-content: center;
+    }
+    .addToCart button:hover,
+    .addToCart .viewCart:hover{
+      background-color: #000;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+    }
+    .show{
+      opacity: 1;
+      visibility: visible;
+    }
+    .hide{
+      opacity: 0;
+      visibility: hidden;
+    }
+    .addToCart button + .viewCart {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      z-index: 0;
+      transform: translateX(-50%);
+    }
+    .buttons{
+      position: relative;
+    }
+    .sizes ul {
+      display: flex;
+      list-style: none;
+      padding-left: 0;
+    }
+    .sizes ul li {
+      width: 40px;
+      height: 30px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      font-size: 16px;
+      font-family: Gillsans,sans-serif;
+    }
+    .sizes label {
+      font-size: 18px;
+      font-weight: 500;
+      font-family: Gillsans,sans-serif;
+      margin-right: 35px;
+    }
+    .sizes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @media(max-width: 1024px){
+      .col-half {
+        width: 100%;
+        flex-basis: 100%;
+      }
+      amp-selector#carouselWithPreviewSelector [option] {
+        height: 20px;
+        width: 20px;
+        border: none;
+      }
+      .p-data .p-name {
+        margin-top: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="p-detail">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-half col-70">
+        <amp-selector id="carouselWithPreviewSelector" class="carousel-preview" on="select:carouselWithPreview.goToSlide(index=event.targetOption)" layout="container">
+          <ul>
+            <li option="0" selected></li>
+            <li option="1"></li>
+            <li option="2"></li>
+            <li option="3"></li>
+          </ul>
+        </amp-selector>
+        <amp-carousel id="carouselWithPreview"
+                      width="690"
+                      height="515"
+                      layout="responsive"
+                      type="slides"
+                      on="slideChange:carouselWithPreviewSelector.toggle(index=event.index, value=true)">
+          <amp-img layout="fill" src="https://softeey.com/clients/vitlage/assets/images/shoes-1.webp"  alt="Shoes"></amp-img>
+          <amp-img layout="fill" src="https://softeey.com/clients/vitlage/assets/images/shoes-2.webp"  alt="Shoes"></amp-img>
+          <amp-img layout="fill" src="https://softeey.com/clients/vitlage/assets/images/shoes-3.webp"  alt="Shoes"></amp-img>
+          <amp-img layout="fill" src="https://softeey.com/clients/vitlage/assets/images/shoes-4.webp"  alt="Shoes"></amp-img>
+        </amp-carousel>
+      </div>
+      <div class="col-half col-30">
+        <div class="p-data">
+
+          <div class="d-flex align-items-center justify-content-between">
+            <h2 class="p-name">GRECA SNEAKERS</h2>
+            <p class="p-price">$1380</p>
+          </div>
+          <span>All taxes and duties included</span>
+
+
+          <div class="sizes">
+            <label for="size">Size:</label>
+            <amp-selector name="size" layout="container"
+                          on="select:AMP.setState({ product: {selectedSize: event.targetOption}})"
+                          [selected]="(product[product.selectedColor].sizes[product.selectedSize] != 'unavailable')
+                          ? product.selectedSize
+                          : product[product.selectedColor].defaultSize">
+              <ul class="p0 m1">
+                <li option="S" class=""
+                    [class]="(product[product.selectedColor].sizes['S'] != 'unavailable')
+                          ? ''
+                          : 'unavailable'">40</li>
+                <li option="M" class="" selected
+                    [class]="(product[product.selectedColor].sizes['M'] != 'unavailable')
+                          ? ''
+                          : 'unavailable'">41</li>
+                <li option="L" class="unavailable"
+                    [class]="(product[product.selectedColor].sizes['L'] != 'unavailable')
+                          ? ''
+                          : 'unavailable'">43</li>
+              </ul>
+            </amp-selector>
+          </div>
+          <div class="addToCart">
+            <p class="beforeclick" [class]="class.changeClass == 'newClass' ? 'afterclick' : 'beforeclick' ">Product has been added to cart</p>
+            <div class="buttons">
+              <button class="show" [class]="class.changeClass == 'newClass' ? 'hide' : 'show' " on="tap:AMP.setState({class:{changeClass: 'newClass'}})">Add to Cart
+              </button>
+              <a href="https://google.com" class="viewCart">View Cart</a>
+            </div>
+            <amp-state id="class">
+              <script type="application/json">
+                {
+                  "changeClass": ""
+                }
+              </script>
+            </amp-state>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
