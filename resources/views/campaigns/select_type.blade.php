@@ -18,7 +18,7 @@ schedule
 
 @section('content')
 <div class="row">
-    <div class="col-md-8 custom-box1">
+    <div class="col-md-12 custom-box1">
         <ul class="modern-listing big-icon no-top-border-list mt-0">
             @foreach (Acelle\Model\Campaign::types() as $key => $type)
 
@@ -53,6 +53,5 @@ schedule
             </a>
         </div>
     </div>
-    <div class="col-md-1"></div>
 </div>
 @endsection

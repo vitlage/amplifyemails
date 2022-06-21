@@ -27,7 +27,7 @@ forward_to_inbox
 
 @section('content')
     <div class="row">
-        <div class="col-md-6 custom-box1">
+        <div class="col-md-12 custom-box1">
             <h2 class="mt-0">{{ trans('messages.campaign.content_management') }}</h2>
             <h3 class="mt-4">{{ trans('messages.campaign.email_content') }}</h3>                
             <p>{{ trans('messages.campaign.email_content.intro') }}</p>
