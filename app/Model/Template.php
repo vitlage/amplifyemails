@@ -1197,6 +1197,11 @@ class Template extends Model
                 'dir' => database_path('templates/basic/015-2-amp/5c6e2827921fa'),
                 'category' => $categoryBasic,
                 'builder' => true,
+            ], [
+                'name' => 'Form',
+                'dir' => database_path('templates/basic/014-form/6037a23568208'),
+                'category' => $categoryBasic,
+                'builder' => true,
             ],
         ];
 

@@ -1,0 +1,49 @@
+<script>
+    class CarouselWidget extends Widget {
+      getHtmlId() {
+        return "CarouselWidget";
+      }
+
+      init() {
+        // default button html
+        this.setButtonHtml(`
+                <div class="_1content widget-text">
+                    <div class="panel__body woo-panel__body" title="{{ trans('messages.automation.woo_item') }}">
+                        <div class="image-drag">
+                            <div ng-bind-html="::getModuleIcon(module)" class="ng-binding product-list-widget">
+                                <img builder-element src="{{ url('images/logo-dark.svg') }}" width="100%" />
+                            </div>
+                        </div>
+                        <div class="body__title">{{ trans('messages.automation.carousel') }}</div>
+                    </div>
+                </div>
+            `);
+
+        // default content html
+        this.setContentHtml(`
+                <div id="`+this.id+`" builder-element="CarouselElement" class="product-list-widget"
+                    data-preview="yes"
+                    data-count="3"
+                    data-cols="3"
+                    data-sort="created_at-asc"
+                >
+                </div>
+            `);
+
+        // default dragging html
+        this.setDraggingHtml(this.getButtonHtml());
+      }
+
+      getElement() {
+        return currentEditor.getIframeContent().find('#' + this.id);
+      }
+
+      drop() {
+        var element = currentEditor.elementFactory(this.getElement());
+        element.render();
+
+        currentEditor.select(element);
+        currentEditor.handleSelect();
+      }
+    }
+</script>

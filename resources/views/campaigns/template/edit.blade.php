@@ -112,6 +112,18 @@
                     // product widgets
                     this.addContentWidget(new ProductListWidget(), 0, 'ProductCommerce');
                     this.addContentWidget(new ProductWidget(), 0, 'ProductCommerce');
+                    this.addContentWidget(new CustomButtonWidget(), 0, 'Button');
+                    this.addContentWidget(new ButtonWidget(), 0, 'Button');
+                    this.addContentWidget(new CustomCheckboxWidget(), 0, 'Checkbox');
+                    this.addContentWidget(new CheckboxIosWidget(), 0, 'Checkbox');
+                    this.addContentWidget(new CustomRadioWidget(), 0, 'Radio button');
+                    this.addContentWidget(new RadioIosWidget(), 0, 'Radio button');
+                    this.addContentWidget(new RadioSwitcherWidget(), 0, 'Radio button');
+                    this.addContentWidget(new RoundedInputWidget(), 0, 'Input');
+                    this.addContentWidget(new CustomInputWidget(), 0, 'Input');
+                    this.addContentWidget(new CustomTextAreaWidget(), 0, 'Input');
+                    this.addContentWidget(new CustomFormWidget(), 0, 'Form');
+                    this.addContentWidget(new NpsScoreWidget(), 0, 'Score widget');
 
                     // Rss widget
                     // this.addCustomCss('{{ url('/core/css/builder_rss.css') }}');
