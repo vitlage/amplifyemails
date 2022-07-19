@@ -11,7 +11,7 @@
                 @if (\Acelle\Model\Setting::get('site_logo_big'))
                     <img width="150px" src="{{ action('SettingController@file', \Acelle\Model\Setting::get('site_logo_big')) }}" alt="">
                 @else
-                    <img width="150px" src="{{ URL::asset('images/logo_square.png') }}" alt="">
+                    <img width="150px" src="{{ URL::asset('logo.png') }}" alt="">
                 @endif
             </a>
         </div>

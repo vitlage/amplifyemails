@@ -218,6 +218,9 @@
                           span.click();
                       }
                   }
+                },
+                loadingSetMessage: function (f) {
+                    $(".loading-page-overlay").remove();
                 }
             });
           

@@ -8,8 +8,6 @@
 
 <title>@yield('title') - {{ \Acelle\Model\Setting::get("site_name") }}</title>
 
-@if (\Acelle\Model\Setting::get('site_favicon'))
-    <link rel="shortcut icon" type="image/png" href="{{ asset('favicon.ico') }}"/>
-@endif    
+<link rel="shortcut icon" type="image/png" href="{{ asset('favicon.ico') }}"/>
 
 @include('layouts.core._includes')
