@@ -142,8 +142,12 @@ class User extends Authenticatable
         $layout = \Acelle\Model\Layout::where('alias', 'registration_confirmation_email')->first();
         $token = $this->getToken();
 
-        $layout->content = str_replace('{ACTIVATION_URL}', join_url(config('app.url'), action('UserController@activate', ['token' => $token], false)), $layout->content);
-        $layout->content = str_replace('{CUSTOMER_NAME}', $name, $layout->content);
+        $replacements = [
+            '{ACTIVATION_URL}' => join_url(config('app.url'), action('UserController@activate', ['token' => $token], false)),
+            '{CUSTOMER_NAME}' => $name,
+            '{DATE}' => date('Y'),
+        ];
+        $layout->content = strtr($layout->content, $replacements);
 
         $name = is_null($name) ? trans('messages.to_email_name') : $name;
 

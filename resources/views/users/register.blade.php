@@ -3,7 +3,11 @@
 @section('title', trans('messages.create_your_account'))
 
 @section('content')
-    
+    <div class="text-center mt-4">
+        {!! trans('messages.signin_if_has_account', [
+            'link' => action('Auth\LoginController@showLoginForm')
+        ]) !!}
+    </div>
     <form enctype="multipart/form-data" action="{{ action('UserController@register') }}" method="POST" class="form-validate-jqueryz subscription-form">
         {{ csrf_field() }}
         <div class="row mt-5 mc-form">
@@ -13,7 +17,7 @@
                     @if (\Acelle\Model\Setting::get('site_logo_big'))
                         <img width="150px" src="{{ action('SettingController@file', \Acelle\Model\Setting::get('site_logo_big')) }}" alt="">
                     @else
-                        <img width="150px" src="{{ URL::asset('images/logo_square.png') }}" alt="">
+                        <img width="150px" src="{{ URL::asset('logo.png') }}" alt="">
                     @endif
                 </a>
             </div>

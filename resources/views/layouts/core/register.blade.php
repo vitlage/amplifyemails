@@ -38,9 +38,7 @@
 
 
 		<!-- Footer -->
-		<div class="footer text-muted">
-			{!! trans('messages.copy_right') !!}
-		</div>
+		<div class="footer text-muted"></div>
 		<!-- /footer -->
 
 	</div>
