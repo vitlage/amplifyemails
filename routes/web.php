@@ -446,6 +446,8 @@ Route::group(['middleware' => ['not_installed', 'auth', 'frontend', 'subscriptio
     Route::patch('campaigns/{uid}/update', 'CampaignController@update');
     Route::get('campaigns/{uid}/run', 'CampaignController@run');
     Route::get('campaigns/{uid}/update-stats', 'CampaignController@updateStats');
+    Route::get('campaigns/{uid}/mail-responses', 'CampaignController@mailResponses');
+    Route::get('campaigns/{uid}/track', 'CampaignController@mailDataTracking');
 
     Route::get('users/login-back', 'UserController@loginBack');
 

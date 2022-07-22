@@ -19,7 +19,8 @@
       `)
 
       this.setContentHtml(`
-                <form builder-element="CustomFormElement" builder-wrapper role="main">
+                <form builder-element="CustomFormElement" builder-wrapper role="main" action="<?= action('CampaignController@mailDataTracking', $campaign->uid); ?>">
+                  <input type="hidden" name="subscriber" value="{SUBSCRIBER_EMAIL}">
                   <div style="display: flex;align-content: center;justify-content: flex-start">
                     <div>
                       <div builder-element="BlockElement">

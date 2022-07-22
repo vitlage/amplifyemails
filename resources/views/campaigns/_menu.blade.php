@@ -95,6 +95,13 @@ auto_awesome_mosaic
 </span> {{ trans('messages.email_review') }}
 				</a>
 			</li>
+			<li class="nav-item" rel0="CampaignController/mailResponses">
+				<a href="{{ action('CampaignController@mailResponses', $campaign->uid) }}" class="nav-link">
+					<span class="material-icons-outlined">
+description
+</span> {{ trans('messages.responses') }}
+				</a>
+			</li>
 		</ul>
 	</div>
 </div>

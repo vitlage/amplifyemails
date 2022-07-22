@@ -242,6 +242,7 @@
   'edit_subscriber' => 'Update subscriber',
   'edit' => 'Edit',
   'confirm' => 'Confirm',
+  'responses' => 'Responses',
   'number_field' => 'Number',
   'number' => 'Number',
   'columns' => 'Columns',
