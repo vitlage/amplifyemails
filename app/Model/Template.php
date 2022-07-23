@@ -736,6 +736,12 @@ class Template extends Model
             } elseif (strpos($url, 'data:') === 0) {
                 // base64 image. Like: "data:image/png;base64,iVBOR"
                 return $url;
+            } elseif ($url === '%TEMPLATE_CUSTOM_CSS%') {
+                return route(
+                    'public_assets',
+                    [ 'dirname' => StringHelper::base64UrlEncode(public_path('builder/css')), 'basename' => 'custom.css' ],
+                    false
+                );
             } else {
                 // URL is a relative path like "images/banner.jpg"
                 // Transform relative URLs to PUBLIC ABSOLUTE URLs with leading slash /

@@ -79,10 +79,19 @@ Route::get('/p/assets/{path}', [ function ($token) {
 Route::get('assets/{dirname}/{basename}', [ function ($dirname, $basename) {
     $dirname = \Acelle\Library\StringHelper::base64UrlDecode($dirname);
     $absPath = storage_path(join_paths($dirname, $basename));
+    $existsFile = false;
 
     if (\File::exists($absPath)) {
-        $mimetype = \Acelle\Library\File::getFileType($absPath);
-        return response()->file($absPath, array('Content-Type' => $mimetype));
+        $existsFile = true;
+    }
+
+    if (!$existsFile && \File::exists($absPath = join_paths($dirname, $basename))) {
+        $existsFile = true;
+    }
+
+    if ($existsFile) {
+        $mimeType = \Acelle\Library\File::getFileType($absPath);
+        return response()->file($absPath, array('Content-Type' => $mimeType));
     } else {
         abort(404);
     }
@@ -402,6 +411,7 @@ Route::group(['middleware' => ['not_installed', 'auth', 'frontend', 'subscriptio
     Route::get('campaigns/{uid}/open-map', 'CampaignController@openMap');
     Route::get('campaigns/{uid}/tracking-log', 'CampaignController@trackingLog');
     Route::get('campaigns/{uid}/tracking-log/listing', 'CampaignController@trackingLogListing');
+    Route::get('campaigns/{uid}/tracking-mail-data/listing', 'CampaignController@trackingMailDataList');
     Route::get('campaigns/{uid}/bounce-log', 'CampaignController@bounceLog');
     Route::get('campaigns/{uid}/bounce-log/listing', 'CampaignController@bounceLogListing');
     Route::get('campaigns/{uid}/feedback-log', 'CampaignController@feedbackLog');
@@ -447,7 +457,7 @@ Route::group(['middleware' => ['not_installed', 'auth', 'frontend', 'subscriptio
     Route::get('campaigns/{uid}/run', 'CampaignController@run');
     Route::get('campaigns/{uid}/update-stats', 'CampaignController@updateStats');
     Route::get('campaigns/{uid}/mail-responses', 'CampaignController@mailResponses');
-    Route::get('campaigns/{uid}/track', 'CampaignController@mailDataTracking');
+    Route::get('campaigns/{uid}/track', 'CampaignController@mailDataTrack');
 
     Route::get('users/login-back', 'UserController@loginBack');
 
